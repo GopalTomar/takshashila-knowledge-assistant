@@ -1,0 +1,22 @@
+Communications Guideline: Use 'Scholar' or 'Analyst' Instead of 'Expert'
+playbook
+Takshashila should avoid calling its people 'experts' in communications, preferring 'scholar' or 'analyst' instead.
+Published
+April 10, 2026
+TL;DR
+: Takshashila should avoid calling its people 'experts' in communications, preferring 'scholar' or 'analyst' instead.
+Key Points
+The word 'expert' should be avoided when describing Takshashila members
+Preferred alternatives are 'scholar' or 'analyst'
+This applies to all communications from the organization
+Decisions Made
+✅ All Takshashila communications will use 'scholar' or 'analyst' instead of 'expert'
+Context
+This appears to be a communications style guideline issued by Nitin Pai, likely reflecting Takshashila's approach to positioning its researchers and faculty in public discourse. The preference for 'scholar' or 'analyst' over 'expert' may reflect considerations around humility, accuracy, or how the organization wants to be perceived in policy discussions.
+Original Thread
+[2026-04-10 14:38 UTC] @nitinpai: 👉🏽 In all our communications we should avoid the use of the word "expert" to describe any one of us. Use "scholar" or "analyst" instead. 
+
+[2026-04-10 16:15 UTC] @pranaykotas: !kb
+
+[2026-04-10 16:15 UTC] @kb-bot: Processing this thread...
+From #Nitin's Arrows · 3 participants · How We Do Things

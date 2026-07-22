@@ -1,0 +1,392 @@
+{
+  "source": "commit_kb",
+  "source_name": "Commit — Takshashila Knowledge Base",
+  "ingested_at": "2026-07-03T15:31:47Z",
+  "total_documents": 47,
+  "dropped_index_pages": 8,
+  "category_counts": {
+    "decisions": 12,
+    "notes": 1,
+    "playbook": 24,
+    "ideas": 4,
+    "insights": 6
+  },
+  "documents": [
+    {
+      "id": "commit_kb_0001",
+      "title": "The Mindblower Prize: Rs 50,000 for Mind-Blowing Ideas",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-06-29-the-mindblower-prize-rs-50000-for-mind-blowing-ideas.html",
+      "text_length": 1941,
+      "date": "2026-06-29"
+    },
+    {
+      "id": "commit_kb_0002",
+      "title": "Who We Are — Takshashila Profile",
+      "category": "notes",
+      "url": "https://commit.takshashila.org.in/notes/2026-04-29-who-we-are-takshashila-profile.html",
+      "text_length": 1523,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0003",
+      "title": "Mission, Values & Code of Conduct",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-04-29-mission-values-code-of-conduct.html",
+      "text_length": 1896,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0004",
+      "title": "Your First Week at Takshashila — Checklist",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-your-first-week.html",
+      "text_length": 1532,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0005",
+      "title": "How We Think — Critical Thinking Norms",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-how-we-think.html",
+      "text_length": 1682,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0006",
+      "title": "House Rules & Problem-Solving Norms",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-house-rules-and-norms.html",
+      "text_length": 1584,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0007",
+      "title": "Meeting Rules & Mandatory Meetings",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-meeting-rules.html",
+      "text_length": 1742,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0008",
+      "title": "The Flag System — Gold, Red, Yellow, White",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-the-flag-system.html",
+      "text_length": 1737,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0009",
+      "title": "Tankscrub — Philosophy & Format",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-tankscrub-philosophy.html",
+      "text_length": 1401,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0010",
+      "title": "Core Competencies Every Staff Member Must Have",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-29-core-competencies.html",
+      "text_length": 1664,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0011",
+      "title": "Key Policies — POSH, Leave, Laptop, Confidentiality, Skill Development",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-04-29-key-policies.html",
+      "text_length": 2165,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0012",
+      "title": "Low Course Uptake Attributed to Economy and Oversupply",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-06-20-low-course-uptake-attributed-to-economy-and-oversupply.html",
+      "text_length": 2613,
+      "date": "2026-06-20"
+    },
+    {
+      "id": "commit_kb_0013",
+      "title": "Do Not Resolve or Delete Comments When Sharing Docs for Review",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-06-16-do-not-resolve-or-delete-comments-when-sharing-docs-for-revi.html",
+      "text_length": 1520,
+      "date": "2026-06-16"
+    },
+    {
+      "id": "commit_kb_0014",
+      "title": "Expert Capsule Course and OpenTakshashila SOP Established",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-06-08-expert-capsule-course-and-opentakshashila-sop-established.html",
+      "text_length": 2950,
+      "date": "2026-06-08"
+    },
+    {
+      "id": "commit_kb_0015",
+      "title": "AIForward Strategy: Balancing Speed, Quality, and Human Development",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-06-02-aiforward-strategy-balancing-speed-quality-and-human-develop.html",
+      "text_length": 2515,
+      "date": "2026-06-02"
+    },
+    {
+      "id": "commit_kb_0016",
+      "title": "Takshashila commits to frontier technology use with integrity checks",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-06-02-takshashila-commits-to-frontier-technology-use-with-integrit.html",
+      "text_length": 1778,
+      "date": "2026-06-02"
+    },
+    {
+      "id": "commit_kb_0017",
+      "title": "Mandatory seminar discussions and draft review process for all documents",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-06-01-mandatory-seminar-discussions-and-draft-review-process-for-a.html",
+      "text_length": 1654,
+      "date": "2026-06-01"
+    },
+    {
+      "id": "commit_kb_0018",
+      "title": "Reference concept note shared for convenings best practices",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-31-reference-concept-note-shared-for-convenings-best-practices.html",
+      "text_length": 1031,
+      "date": "2026-05-31"
+    },
+    {
+      "id": "commit_kb_0019",
+      "title": "Core job expectations for Takshashila staff members",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-26-core-job-expectations-for-takshashila-staff-members.html",
+      "text_length": 1313,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "commit_kb_0020",
+      "title": "Brand Custodianship and Aesthetics Training for Staff Conference",
+      "category": "ideas",
+      "url": "https://commit.takshashila.org.in/ideas/2026-05-26-brand-custodianship-and-aesthetics-training-for-staff-confer.html",
+      "text_length": 1297,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "commit_kb_0021",
+      "title": "Reward entrepreneurship and innovation as core values",
+      "category": "ideas",
+      "url": "https://commit.takshashila.org.in/ideas/2026-05-26-reward-entrepreneurship-and-innovation-as-core-values.html",
+      "text_length": 1255,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "commit_kb_0022",
+      "title": "Building Academic Influence Through Strategic Online Sharing",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-building-academic-influence-through-strategic-online-sharing.html",
+      "text_length": 1607,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0023",
+      "title": "Design Principles Guide for Improving Takshashila's Creative Output",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-design-principles-guide-for-improving-takshashilas-creative.html",
+      "text_length": 2090,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0024",
+      "title": "Jump into office conversations to accelerate learning",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-jump-into-office-conversations-to-accelerate-learning.html",
+      "text_length": 1928,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0025",
+      "title": "New Framework: Grounding Takshashila Policy in 21st Century Realities",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-new-framework-grounding-takshashila-policy-in-21st-century-r.html",
+      "text_length": 3440,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0026",
+      "title": "Research Competency Level Framework for Takshashila Staff",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-research-competency-level-framework-for-takshashila-staff.html",
+      "text_length": 3008,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0027",
+      "title": "WhatsApp Group Discussion Strategy: Handling Opposing Views",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-13-whatsapp-group-discussion-strategy-handling-opposing-views.html",
+      "text_length": 2545,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0028",
+      "title": "Finishing Projects: Moving Beyond 90% Completion",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-05-13-finishing-projects-moving-beyond-90-completion.html",
+      "text_length": 1270,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0029",
+      "title": "Leadership advice on maintaining focus during uncertain times",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-05-13-leadership-advice-on-maintaining-focus-during-uncertain-time.html",
+      "text_length": 1552,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0030",
+      "title": "Takshashila's Hope and Reassurance Approach During Polycrisis",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-05-13-takshashilas-hope-and-reassurance-approach-during-polycrisis.html",
+      "text_length": 1768,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0031",
+      "title": "Reading Assignment: High Touch Elements from Pink's A Whole New Mind",
+      "category": "ideas",
+      "url": "https://commit.takshashila.org.in/ideas/2026-05-13-reading-assignment-high-touch-elements-from-pinks-a-whole-ne.html",
+      "text_length": 2061,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "commit_kb_0032",
+      "title": "May 12 Sesame Meeting: Defence Fellows, Fundraising & Strategic Decisions",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-05-12-may-12-sesame-meeting-defence-fellows-fundraising-strategic.html",
+      "text_length": 3091,
+      "date": "2026-05-12"
+    },
+    {
+      "id": "commit_kb_0033",
+      "title": "Editorial Standard: Avoid Inaccurate Use of 'Democratisation' in Publications",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-05-09-editorial-standard-avoid-inaccurate-use-of-democratisation-i.html",
+      "text_length": 2331,
+      "date": "2026-05-09"
+    },
+    {
+      "id": "commit_kb_0034",
+      "title": "Adopting Universalism in Research Culture: Critique Without Power Dynamics",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-30-adopting-universalism-in-research-culture-critique-without-p.html",
+      "text_length": 3759,
+      "date": "2026-04-30"
+    },
+    {
+      "id": "commit_kb_0035",
+      "title": "TP Assignment Viva Session: New Assessment Method for AI Detection",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-04-30-tp-assignment-viva-session-new-assessment-method-for-ai-dete.html",
+      "text_length": 1700,
+      "date": "2026-04-30"
+    },
+    {
+      "id": "commit_kb_0036",
+      "title": "Partnership with Observer Research Foundation established for joint events",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-04-29-partnership-with-observer-research-foundation-established-fo.html",
+      "text_length": 1722,
+      "date": "2026-04-29"
+    },
+    {
+      "id": "commit_kb_0037",
+      "title": "AI's Impact on Policy Discourse: Quality Degradation and Competition",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-04-14-ais-impact-on-policy-discourse-quality-degradation-and-compe.html",
+      "text_length": 2971,
+      "date": "2026-04-14"
+    },
+    {
+      "id": "commit_kb_0038",
+      "title": "Communications Guideline: Use 'Scholar' or 'Analyst' Instead of 'Expert'",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-10-communications-guideline-use-scholar-or-analyst-instead-of-e.html",
+      "text_length": 1346,
+      "date": "2026-04-10"
+    },
+    {
+      "id": "commit_kb_0039",
+      "title": "Dashboard data to source exclusively from SOMA18 form responses",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-04-08-dashboard-data-to-source-exclusively-from-soma18-form-respon.html",
+      "text_length": 2531,
+      "date": "2026-04-08"
+    },
+    {
+      "id": "commit_kb_0040",
+      "title": "Standardized byline format for Takshashila op-eds and publications",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-04-08-standardized-byline-format-for-takshashila-op-eds-and-public.html",
+      "text_length": 2017,
+      "date": "2026-04-08"
+    },
+    {
+      "id": "commit_kb_0041",
+      "title": "Takshashila branding policy: Institution-level identity only",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-03-17-takshashila-branding-policy-institution-level-identity-only.html",
+      "text_length": 1750,
+      "date": "2026-03-17"
+    },
+    {
+      "id": "commit_kb_0042",
+      "title": "Takshashila Institution Branding and External Communication Standards",
+      "category": "decisions",
+      "url": "https://commit.takshashila.org.in/decisions/2026-03-16-takshashila-institution-branding-and-external-communication.html",
+      "text_length": 2215,
+      "date": "2026-03-16"
+    },
+    {
+      "id": "commit_kb_0043",
+      "title": "New meeting norms: In-person brainstorming, hybrid for operations",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-03-16-new-meeting-norms-in-person-brainstorming-hybrid-for-operati.html",
+      "text_length": 1720,
+      "date": "2026-03-16"
+    },
+    {
+      "id": "commit_kb_0044",
+      "title": "Research visualization guidelines for cleaner charts and tables",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-03-16-research-visualization-guidelines-for-cleaner-charts-and-tab.html",
+      "text_length": 2036,
+      "date": "2026-03-16"
+    },
+    {
+      "id": "commit_kb_0045",
+      "title": "Takshashila Value System Documentation Shared",
+      "category": "playbook",
+      "url": "https://commit.takshashila.org.in/playbook/2026-03-16-takshashila-value-system-documentation-shared.html",
+      "text_length": 1210,
+      "date": "2026-03-16"
+    },
+    {
+      "id": "commit_kb_0046",
+      "title": "AI's Impact on Public Discourse and Policy Analysis Quality",
+      "category": "insights",
+      "url": "https://commit.takshashila.org.in/insights/2026-03-16-ais-impact-on-public-discourse-and-policy-analysis-quality.html",
+      "text_length": 2947,
+      "date": "2026-03-16"
+    },
+    {
+      "id": "commit_kb_0047",
+      "title": "Independent Think Tank Metaphor from Video Share",
+      "category": "ideas",
+      "url": "https://commit.takshashila.org.in/ideas/2026-03-16-independent-think-tank-metaphor-from-video-share.html",
+      "text_length": 1117,
+      "date": "2026-03-16"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+Dashboard data to source exclusively from SOMA18 form responses
+decisions
+All dashboard metrics will now only reflect outputs properly logged through the SOMA18 form, requiring careful coordination and adherence to new guidelines.
+Published
+April 8, 2026
+TL;DR
+: All dashboard metrics will now only reflect outputs properly logged through the SOMA18 form, requiring careful coordination and adherence to new guidelines.
+Key Points
+Only published work within the given week should be logged in SOMA18 forms
+Co-authored outputs require coordination to ensure single entry by designated person
+ATP podcast entries should only be made by the episode host
+In-house events and Takshashila partnerships should not be counted as conference participations
+Staff must review responses carefully before form submission
+Decisions Made
+✅ Dashboard data will source exclusively from SOMA18 form responses starting next week
+✅ Work in progress items can be mentioned in one-line updates but not counted as outputs
+✅ Newsletter manager (Anwesha) will be sole recorder for Technopolitik contributions
+Context
+This announcement establishes new data collection protocols for Takshashila's internal dashboards, likely part of efforts to standardize output tracking and eliminate inconsistencies in reporting research publications, media appearances, and other institutional activities.
+Original Thread
+[2026-04-08 11:07 UTC] @vanshikasaraf: Hello @all. Starting next week, all dashboard data will be sourced ***only*** from SOMA18 form responses. This means that any output not entered in the form will ***not*** be reflected in the dashboards.
+Please note the following guidelines going forward:
+1. Only include documents/op-eds/newsletters/blogs that have been ***published*** within the given week. Work in progress can be mentioned in the one-line update.
+2. For co-authored outputs, please coordinate to ensure that only ***one author*** logs the entry. For instance, contributions to Technopolitik should not be recorded individually. The entry shall solely be made by the newsletter manager (in this case Anwesha). 
+3. For ATPs, only the ***host*** of the episode should fill the entry.
+4. For conference participations, ***do not*** count in-house events or those organised in partnership with Takshashila.
+5. Please review your responses carefully before submitting the form. 
+Thank you.
+
+[2026-04-08 11:09 UTC] @pranaykotas: !kb
+
+[2026-04-08 11:09 UTC] @kb-bot: Processing this thread...
+From #chowk-announce · 3 participants · What We Decided

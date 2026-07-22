@@ -1,0 +1,21 @@
+Do Not Resolve or Delete Comments When Sharing Docs for Review
+playbook
+Deleting reviewer comments frustrates collaborators — always respond to comments with your reasoning instead of resolving or removing them.
+Published
+June 16, 2026
+TL;DR
+: Deleting reviewer comments frustrates collaborators — always respond to comments with your reasoning instead of resolving or removing them.
+Key Points
+Never resolve or delete comments on a Google Doc sent for review.
+Respond to each comment with the action taken — whether the change was made or why it was not.
+Deleting reviewer comments is considered disrespectful and frustrating to collaborators.
+This practice maintains a clear audit trail of feedback and editorial decisions.
+Context
+At Takshashila, research documents are frequently shared internally for peer review before publication. This norm was flagged to ensure that all researchers and writers follow a consistent, respectful commenting etiquette on collaborative documents, particularly Google Docs.
+Original Thread
+[2026-06-16 15:00 UTC] @pranaykotas: an important practice to follow in research. When you send a google doc for review to anyone, DO NOT resolve or delete comments. You can just respond to them with the changes you have made or chosen not to make. It makes a reviewer super angry to review documents when their previous comments are deleted. 
+
+[2026-06-16 15:37 UTC] @pranaykotas: !kb
+
+[2026-06-16 15:37 UTC] @kb-bot: Processing this thread...
+From #research · 2 participants · How We Do Things

@@ -1,0 +1,20 @@
+{
+  "root": "https://commit.takshashila.org.in/",
+  "total_documents": 55,
+  "category_counts": {
+    "home": 1,
+    "start-here.html": 1,
+    "browse.html": 1,
+    "decisions": 13,
+    "playbook": 25,
+    "insights": 7,
+    "ideas": 5,
+    "notes": 2
+  },
+  "failed": [],
+  "files": {
+    "rag_documents": "D:\\takshashila-rag\\commit_kb_clean_crawled\\rag_documents.jsonl",
+    "txt_dir": "D:\\takshashila-rag\\commit_kb_clean_crawled\\txt",
+    "json_dir": "D:\\takshashila-rag\\commit_kb_clean_crawled\\json"
+  }
+}

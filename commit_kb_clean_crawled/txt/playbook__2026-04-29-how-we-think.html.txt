@@ -1,0 +1,35 @@
+How We Think — Critical Thinking Norms
+playbook
+The frameworks and principles Takshashila staff use to reason rigorously about policy questions.
+Published
+April 29, 2026
+TL;DR
+: Takshashila's thinking norms: come with three alternatives not just a problem, lead with conclusions, quantify claims, hold hypotheses lightly, and apply Occam's Razor.
+Three Cardinal Rules
+Prepare before seeking help
+— come with at least three pre-considered options, not just a problem statement
+Solution-oriented communication
+— accompany any publicly raised issue with proposed solutions
+Action over permission
+— better to apologise for acting than to wait indefinitely for approval
+Baloney Detection (Michael Shermer)
+Before asserting a claim, check:
+Is the source reliable and independent?
+Has the claim been verified independently?
+Does it align with what is otherwise known?
+Does the evidence support this claim over alternatives?
+Sagan's Method
+Seek independent confirmation of facts
+Encourage debate among experts — do not appeal to authority
+Test multiple hypotheses simultaneously
+Quantify
+— if something can be measured, measure it; it allows better discrimination between competing ideas
+Do not become attached to your own hypothesis
+Every link in an argument chain must be sound
+Apply Occam's Razor: prefer the simpler explanation when evidence is equal
+Hypotheses must be falsifiable — unfalsifiable claims are not scientific
+The Reverse Bollywood Format
+In communication and presentations:
+lead with the conclusion
+. State the key point or recommendation in 60 seconds. Methodology and evidence follow. Never build up to a reveal.
+From staff-handbook · Takshashila Institution · playbook

@@ -1,0 +1,23 @@
+Standardized byline format for Takshashila op-eds and publications
+playbook
+All Takshashila researchers must use a standardized byline format when publishing op-eds to ensure consistent institutional representation.
+Published
+April 8, 2026
+TL;DR
+: All Takshashila researchers must use a standardized byline format when publishing op-eds to ensure consistent institutional representation.
+Key Points
+Primary byline format: '[Name] is a/the [Designation] at the [Programme/Specialisation] at the Takshashila Institution. Views expressed in this article do not represent those of the institution.'
+Shortened format for length-constrained publications: '[Name] is a/the [Designation] at the Takshashila Institution. Views expressed in this article do not represent those of the institution.'
+All researchers must follow this standardized format when submitting op-eds to external publications
+Decisions Made
+✅ Adopted standardized byline format for all Takshashila op-eds and publications
+✅ Created a shorter alternative format for publications with space constraints
+Context
+This guidance was shared in the research channel to ensure consistency in how Takshashila Institution researchers represent themselves and the organization when publishing opinion pieces in external media outlets.
+Original Thread
+[2026-04-08 09:13 UTC] @manoj: @all folks, messaging here to ensure that we follow common designation styles when we send our opeds to publications. Please share it as follows: "[Name] is a/the [Designation] at the [Programme/Specialisation] at the Takshashila Institution. Views expressed in this article do not represent those of the institution." --- Now if this is too long for the publication, please use the following: "[Name] is a/the [Designation] at the Takshashila Institution. Views expressed in this article do not represent those of the institution."
+
+[2026-04-08 11:33 UTC] @pranaykotas: !kb
+
+[2026-04-08 11:33 UTC] @kb-bot: Processing this thread...
+From #research · 3 participants · How We Do Things

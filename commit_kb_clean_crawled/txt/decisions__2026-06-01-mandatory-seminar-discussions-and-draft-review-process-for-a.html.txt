@@ -1,0 +1,26 @@
+Mandatory seminar discussions and draft review process for all documents
+decisions
+All research documents must undergo seminar discussion and draft review before submission to ensure quality and incorporate feedback early.
+Published
+June 1, 2026
+TL;DR
+: All research documents must undergo seminar discussion and draft review before submission to ensure quality and incorporate feedback early.
+Key Points
+No document can be published without mandatory seminar discussion
+Seminar discussions should happen as early as possible in the research lifecycle
+Authors must complete /draft-review process before v0.5 submission
+V0.5 submissions must include response report to draft review feedback
+Decisions Made
+✅ All documents require mandatory seminar discussion before publication
+✅ Draft review process must be completed before v0.5 submission
+Context
+This appears to be a policy decision regarding Takshashila's research publication workflow, establishing quality control measures to ensure all research outputs receive peer feedback and review before finalization.
+Original Thread
+[2026-06-01 04:39 UTC] @pranaykotas: Decisions:
+- no document goes out without a seminar discussion. Seminar discussion can be short, but is mandatory. Earlier this takes place in the lifecycle, the better it is. Expect feedback that can change research direction. 
+- do a /draft-review before submitting it for a v0.5 review. Your v0.5 submission should have a report of your response to /draft-review along with the draft. 
+
+[2026-06-01 04:39 UTC] @pranaykotas: !kb
+
+[2026-06-01 04:39 UTC] @kb-bot: Processing this thread...
+From #research · 2 participants · What We Decided

@@ -1,0 +1,61 @@
+{
+  "finished_at": "2026-07-22T02:11:30Z",
+  "mode": "full",
+  "duration_seconds": 11582.3,
+  "per_source": {
+    "website": {
+      "added": 487,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "pdf": 180,
+      "not_modified": 0,
+      "skipped_nav": 5,
+      "removed": 0
+    },
+    "commit_kb": {
+      "added": 58,
+      "updated": 0,
+      "unchanged": 0,
+      "failed": 0,
+      "pdf": 0,
+      "not_modified": 0,
+      "skipped_nav": 0,
+      "removed": 0
+    }
+  },
+  "merge": {
+    "added": 8,
+    "updated": 717,
+    "removed": 0,
+    "total": 2636
+  },
+  "index": {
+    "documents": 2614,
+    "chunks": 68091,
+    "embedded": 68091,
+    "cached": 0
+  },
+  "changed_documents": 725,
+  "validation": {
+    "ok": false,
+    "counts": {
+      "documents": 2636,
+      "chunks": 68091,
+      "index_vectors": 68091
+    },
+    "errors": [
+      "1008 duplicate document URL(s) (same page stored more than once)."
+    ],
+    "warnings": [
+      "1547 document(s) missing author metadata (metadata questions like 'who wrote this' may fail for them).",
+      "314 document(s) missing a publication date.",
+      "57 group(s) of documents share identical content (possible duplicates / canonical collapse needed)."
+    ],
+    "info": [
+      "2636 documents; 1437 distinct URLs.",
+      "68091 chunks; avg 810 chars.",
+      "Index has 68091 vectors, matching 68091 chunks."
+    ]
+  }
+}

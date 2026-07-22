@@ -1,0 +1,31 @@
+AI's Impact on Public Discourse and Policy Analysis Quality
+insights
+AI tools are flooding discourse with both high-quality analysis and sophisticated-sounding bullshit, forcing policy institutions to rethink how they create distinctive, valuable content.
+Published
+March 16, 2026
+TL;DR
+: AI tools are flooding discourse with both high-quality analysis and sophisticated-sounding bullshit, forcing policy institutions to rethink how they create distinctive, valuable content.
+Key Points
+AI enables previously poor writers to create convincing but potentially low-quality long-form content that exploits cognitive biases
+Quality analysts can now flood markets with decent analysis, driving the marginal price of such work toward zero
+Organizations must simultaneously produce better analysis, differentiate themselves, and capture target audience attention
+The information environment has become both more homogeneous and more polarized due to AI integration
+Traditional expertise risks being drowned out by AI-generated content that appears sophisticated but lacks substance
+Context
+This conversation emerged from an operations meeting discussion about AI's transformative impact on policy discourse. The leadership team is grappling with how Takshashila can maintain relevance and influence in an environment where AI tools have dramatically lowered barriers to content creation while simultaneously flooding the market with analysis.
+Original Thread
+[2026-02-25 03:48 UTC] @nitinpai: Reposting this here because it's existentially important:
+
+>This is what I was referring to when I spoke about AI at ops. 
+>1. Discourse is completely shittified and cuckoos who couldn't spell earlier can now write long essays, dishing out shit. They play to desirability bias and social proof to win attention. 
+>
+>2. Non-cuckoos can generate decent quality non-shitty analysis and flood the space. Even if they don't become influential they reduce the marginal price of such analysis to zero, because they've flooded the market. 
+>
+>3. So what do you do (a) to put out better analysis (b) stand out (c) gain the attention of the target audience. All three must be true simultaneously. 
+>
+>#3 is not a rhetorical question. It's something we have to think about and answer for ourselves.
+
+[2026-02-25 03:52 UTC] @lokendra_sharma: Thanks for articulating this, Nitin; we discussed a version of this problem in the last HTG meeting. AI infusion means information environment is more homogeneous and more polarised at the same time. How to stand out amid this is a question we did not have a clear answer to. 
+
+[2026-02-25 05:43 UTC] @kpm: The threshold of entry into subject matter discourses have bottomed out. AI tools and verbal gadgetry have helped generate smartly-packaged bullshit at such scale that "true" expertise is swamped out. Signal to Noise ratio is at an all time low amid frameworks and windows.
+From #Nitin's Arrows · 3 participants · What We Learned

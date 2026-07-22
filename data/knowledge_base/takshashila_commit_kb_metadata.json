@@ -1,0 +1,21 @@
+{
+  "source": "commit_kb",
+  "source_name": "Commit — Takshashila Knowledge Base",
+  "ingested_at": "2026-07-03T15:31:47Z",
+  "total_documents": 47,
+  "category_counts": {
+    "decisions": 12,
+    "notes": 1,
+    "playbook": 24,
+    "ideas": 4,
+    "insights": 6
+  },
+  "shortest_doc": 1031,
+  "longest_doc": 3759,
+  "avg_doc_length": 1968.6,
+  "files": {
+    "jsonl": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_commit_kb.jsonl",
+    "index": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_commit_kb_index.json",
+    "metadata": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_commit_kb_metadata.json"
+  }
+}

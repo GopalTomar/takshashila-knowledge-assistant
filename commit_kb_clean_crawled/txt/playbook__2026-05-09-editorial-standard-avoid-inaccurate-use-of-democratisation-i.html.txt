@@ -1,0 +1,33 @@
+Editorial Standard: Avoid Inaccurate Use of 'Democratisation' in Publications
+playbook
+Takshashila researchers must use precise terminology in publications, avoiding popular but inaccurate terms like 'democratisation' when they don't actually refer to democratic governance.
+Published
+May 9, 2026
+TL;DR
+: Takshashila researchers must use precise terminology in publications, avoiding popular but inaccurate terms like 'democratisation' when they don't actually refer to democratic governance.
+Key Points
+The term 'democratisation' should only be used when referring to actual democratic governance, not general accessibility or spread
+Scholars must maintain rigorous precision in word choice, especially in headlines and taglines
+Popular discourse often stretches word meanings until they lose accuracy, which Takshashila should avoid
+Alternative terms like 'proliferation' or 'diffusion' better describe the spread of technologies or capabilities
+Decisions Made
+✅ Takshashila will avoid using 'democratisation' incorrectly in future publications
+Context
+This conversation arose from a review of creative materials for the Iran Brief, where the tagline 'Democratisation of Drone Warfare' was flagged as linguistically inaccurate. As a policy think tank, Takshashila needs to maintain high standards of precision in its public communications and research outputs.
+Original Thread
+[2026-05-09 09:22 UTC] @nitinpai: I just saw the creative for the Iran Brief, with the tagline "Democratisation of Drone Warfare"
+
+We should not use popular- but inaccurate terms like "democratisation of this and that". Democracy means rule by the people. People do use democratisation to mean "people getting access to..." in conversations, but it is wrong. 
+
+As scholars we should be very rigorous and scrupulous in using words to their meaning. 
+
+This is just an example. But I want every one of you to carefully think of every word you use; all the more so when it is used as a headline or tagline. Do not yield to popular discourse where meaning is stretched until the meaning is lost. 
+
+[2026-05-09 10:30 UTC] @pranaykotas: !kb
+
+[2026-05-09 10:30 UTC] @kb-bot: Processing this thread...
+
+[2026-05-09 09:25 UTC] @yusuf: "Proliferation"
+
+[2026-05-09 09:39 UTC] @rijesh: Isn't Diffusion a closer term?
+From #research · 5 participants · How We Do Things

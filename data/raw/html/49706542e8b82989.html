@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Our research analyses the AI value chain, spanning data, compute, models, and applications, to identify strategic opportunities within a contested geopolitical landscape.">
+
+<title>Artificial Intelligence â Takshashila Institution</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/images/favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-4e246e24bbe2629196fc7e3dfe52c064.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-blogs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-categories','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-blogs'] = new List('listing-latest-blogs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-categories','listing-date','listing-authors',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-date","listing-source","listing-authors","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-news'] = new List('listing-recent-news', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-analysis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-execute','listing-website','listing-filters','listing-format','listing-featured-research','listing-language','listing-title','listing-author','listing-date','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-tldr','listing-doctype','listing-docversion','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-filters","listing-format","listing-featured-research","listing-language","listing-title","listing-author","listing-date","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-tldr","listing-doctype","listing-docversion","listing-subtitle"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-analysis'] = new List('listing-latest-analysis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-artificial-intelligence-team .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-execute','listing-website','listing-filters','listing-format','listing-featured-research','listing-language','listing-open-graph','listing-twitter-card','listing-title','listing-image','listing-subtitle','listing-description','listing-category','listing-order','listing-research_areas','listing-faculty','listing-listing','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-filters","listing-format","listing-featured-research","listing-language","listing-open-graph","listing-twitter-card","listing-title","listing-image","listing-subtitle","listing-description","listing-category","listing-order","listing-research_areas","listing-faculty","listing-listing","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-artificial-intelligence-team'] = new List('listing-artificial-intelligence-team', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="icon" type="image/png" sizes="192x192" href="../../../assets/images/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../assets/images/apple-touch-icon.png">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../assets/css/takshashila-base-20260707.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="navbar-logo light-content">
+    <img src="../../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/research-areas"> 
+<span class="menu-text">Our Research</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-policy-school" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Policy School</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-policy-school">    
+        <li>
+    <a class="dropdown-item" href="../../../pages/policy-school/">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/policy-school/gcpp.html">
+ <span class="dropdown-text">12-week Graduate Certificate in Public Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/policy-school/pgp.html">
+ <span class="dropdown-text">48-week Post Graduate Programme in Public Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/policy-school/expert-capsule-courses.html">
+ <span class="dropdown-text">Expert Capsule Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/policy-school/opentakshashila.html">
+ <span class="dropdown-text">OpenTakshashila Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/team/">
+ <span class="dropdown-text">Faculty &amp; Staff</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-us" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About Us</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-us">    
+        <li>
+    <a class="dropdown-item" href="../../../pages/team/">
+ <span class="dropdown-text">Team</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/mission.html">
+ <span class="dropdown-text">Mission</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/milestones.html">
+ <span class="dropdown-text">Milestones</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://pages.razorpay.com/pl_NPItghFeJGN6vP/view">
+ <span class="dropdown-text">Donate</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-engage-with-us" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Engage with Us</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-engage-with-us">    
+        <li>
+    <a class="dropdown-item" href="../../../pages/newsletters/">
+ <span class="dropdown-text">Newsletters</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/publications/">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/blogs/">
+ <span class="dropdown-text">Blogs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../pages/podcasts/">
+ <span class="dropdown-text">Podcasts</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/careers.html"> 
+<span class="menu-text">Careers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://pages.razorpay.com/pl_NPItghFeJGN6vP/view"> 
+<span class="menu-text">Donate</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/pay-it-forward.html"> 
+<span class="menu-text">Pay It Forward</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block">
+    <div class="programme-page doc-hero">
+        <div class="gcpp-hero">
+            <div class="gcpp-hero__grid">
+                <div class="gcpp-hero__lead">
+                    <h1 class="gcpp-hero__h1">Artificial Intelligence</h1>
+                                                            <div class="gcpp-hero__lede">Our research analyses the AI value chain, spanning data, compute, models, and applications, to identify strategic opportunities within a contested geopolitical landscape.</div>
+                                                        </div>
+                            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
+
+        const hasTitle = titleBlock && titleBlock.querySelector("h1");
+        if (titleBlock && !hasTitle) {
+            titleBlock.remove();
+            return;
+        }
+
+        // Strip " | Day N of Operation ..." suffix from bulletin titles
+        if (hasTitle) {
+            hasTitle.textContent = hasTitle.textContent.replace(/\s*\|\s*Day\s*\d+.*/i, '').trim();
+        }
+
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
+
+
+<div class="component-section bottom-border">
+<div class="section-heading">
+
+</div>
+<p>The technology and policy ecosystem around artificial intelligence has become an arena of geopolitical contestation. Our research analyses this landscape through the lens of the AI value chain, spanning data, compute, models, and applications, to identify opportunities and vulnerabilities from an Indian perspective.</p>
+<p>We advocate for competitive markets and prioritise open technologies that can enable trust, broaden access and drive innovation. Our work outlines key strategies to build capabilities, mitigate short-term risks, and strengthen the domestic research and innovation ecosystem in the long term.</p>
+</div>
+<!-- Start of Latest Analysis Section -->
+<div class="component-section">
+<section id="recent-publications" class="level1 section-heading with-view-all">
+<h1>Recent Publications</h1>
+<p><a href="../../../pages/publications/" class="view-all">View all Publications</a></p>
+</section>
+<div id="listing-latest-analysis" class="quarto-listing quarto-listing-container-custom">
+<div class="content-outer" id="latest-analysis-carousel">
+  <div class="carousel-container">
+    <div class="carousel-content">
+      
+        <a href="../../../content/publications/20260708-ai-investment-cycle.html">
+          <div class="content-card" data-author-string="Arindam Goswami">
+            <h2 class="content-title">
+              The AI Investment Cycle
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/policy-advisory-draft-regulations-ai-courts.html">
+          <div class="content-card" data-author-string="Bharath Reddy">
+            <h2 class="content-title">
+              Takshashila Policy Advisory: Draft Regulations for Use of Artificial Intelligence in Courts, 2026
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20260423-West-Asian-War-Impact-On-Artificial-Intelligence.html">
+          <div class="content-card" data-author-string="Bharath Reddy, Shobhankita Reddy">
+            <h2 class="content-title">
+              Impact Of The West Asian War On AI Development and Diffusion
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20260217-state-of-ai-governance-2025.html">
+          <div class="content-card" data-author-string="Arindam Goswami, Bharath Reddy, Sridhar Krishna, Anwesha Sen, Shobhankita Reddy">
+            <h2 class="content-title">
+              State of AI Governance, 2025
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20260206-generative-ai-and-copyright-consultation.html">
+          <div class="content-card" data-author-string="Bharath Reddy">
+            <h2 class="content-title">
+              Takshashila Policy Advisory - Working Paper on Generative AI and Copyright (Part 1)
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20251029-Building-Indias-Data-Centres.html">
+          <div class="content-card" data-author-string="Anwesha Sen">
+            <h2 class="content-title">
+              Building India's Data Centres
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20250521-ai-governance-healthcare.html">
+          <div class="content-card" data-author-string="Shambhavi Naik, Bharath Reddy">
+            <h2 class="content-title">
+              A Framework For The Governance Of AI In Healthcare For India: An Exploratory Model
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20250416-state-of-ai-governance-2024.html">
+          <div class="content-card" data-author-string="Bharath Reddy, Rijesh Panicker, Sridhar Krishna, Arindam Goswami, Anwesha Sen, Adya Madhavan">
+            <h2 class="content-title">
+              State of AI Governance, 2024
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20250325-Artificial-Intelligence-through-the-Samaaj-Sarkaar-Bazaar-Lens.html">
+          <div class="content-card" data-author-string="Arindam Goswami">
+            <h2 class="content-title">
+              Artificial Intelligence through the Samaaj-Sarkaar-Bazaar Lens: A Framework for Balanced Regulation
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20250104-framework-for-governing-emerging-technologies.html">
+          <div class="content-card" data-author-string="Shambhavi Naik, Bharath Reddy">
+            <h2 class="content-title">
+              A Framework for Governing Emerging Technologies
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20241217-survey-of-military-ai-technologies.html">
+          <div class="content-card" data-author-string="Adya Madhavan, Satya Sahu">
+            <h2 class="content-title">
+              A Survey of Military AI Technologies
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20241121-AI-Adoption.html">
+          <div class="content-card" data-author-string="Arindam Gowami, Sridhar Krishna">
+            <h2 class="content-title">
+              AI Adoption - Think Tasks, not Jobs
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20241113-A-Primer-on-AI-Chips.html">
+          <div class="content-card" data-author-string="Ashwin Prasad Rao, Satya Shoova Sahu">
+            <h2 class="content-title">
+              A Primer on AI Chips
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20231125-a-pathway-to-ai-governance.html">
+          <div class="content-card" data-author-string="Bharath Reddy, Nitin Pai, Rijesh Panicker, Satya Shoova Sahu, Sridhar Krishna">
+            <h2 class="content-title">
+              A Pathway to AI Governance
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20231014-The-Quest-for-Supremacy-and-Sagacity-in-AI.html">
+          <div class="content-card" data-author-string="Anushka Saxena">
+            <h2 class="content-title">
+              IPPR Book Review - The Quest for Supremacy and Sagacity in AI
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20230320-AI-Race-AI-Hardware.html">
+          <div class="content-card" data-author-string="Shrikrishna Upadhyaya, Pranay Kotasthane">
+            <h2 class="content-title">
+              Takshashila Issue Brief - AI Race Must Not Overlook AI Hardware
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20230314-rebooting-ai-in-india.html">
+          <div class="content-card" data-author-string="Shailesh Chitnis">
+            <h2 class="content-title">
+              Rebooting AI in India
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20220926-TDS-AI-Hardware-Ecosystem-in-India.html">
+          <div class="content-card" data-author-string="Arjun Gargeyas, Anup Rajput, Samparna Tripathy">
+            <h2 class="content-title">
+              Takshashila Discussion SlideDoc - An AI Hardware Ecosystem in India: A SWOT Analysis
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20220918-An-Indian-Approach-to-Technology-Diplomacy.html">
+          <div class="content-card" data-author-string="Arjun Gargeyas">
+            <h2 class="content-title">
+              Takshashila Discussion Document - An Indian Approach to Technology Diplomacy
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+        <a href="../../../content/publications/20190924-TDD-Human-Capital-Investment-Model-for-Indiaâs-National-Security-System.html">
+          <div class="content-card" data-author-string="Lt General (Dr) Prakash Menon, Pranay Kotasthane">
+            <h2 class="content-title">
+              Takshashila Discussion Document - A Human Capital Investment Model for Indiaâs National Security System
+            </h2>
+            <div class="content-authors"></div>
+            <div class="read-more">Read more <span class="arrow">â</span></div>
+          </div>
+        </a>
+        
+    </div>
+  </div>
+
+  <div class="carousel-nav-container">
+    <button class="content-nav-btn prev-btn" aria-label="Previous publications">
+      <span aria-hidden="true">&lt;</span>
+    </button>
+
+    <button class="content-nav-btn next-btn" aria-label="Next publications">
+      <span aria-hidden="true">&gt;</span>
+    </button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const carouselId = "latest-analysis-carousel";
+    const carouselContainer = document.getElementById(carouselId);
+
+    if (!carouselContainer) {
+      console.error("Carousel container not found:", carouselId);
+      return;
+    }
+
+    // Process authors for each card
+    const contentCards = carouselContainer.querySelectorAll('.content-card');
+    contentCards.forEach(card => {
+      const authorsElement = card.querySelector('.content-authors');
+      const authorString = card.getAttribute('data-author-string');
+      
+      if (authorString && authorsElement) {
+        // Parse the comma-separated author string
+        const authors = authorString.split(',').map(author => author.trim());
+        
+        let authorText = '';
+        if (authors.length === 1) {
+          authorText = authors[0];
+        } else if (authors.length === 2) {
+          authorText = authors[0] + ', ' + authors[1];
+        } else if (authors.length > 2) {
+          authorText = authors[0] + ', ' + authors[1] + ' et al.';
+        }
+        
+        authorsElement.textContent = authorText;
+      } else if (authorsElement) {
+        authorsElement.style.display = 'none';
+      }
+    });
+
+    const carousel = carouselContainer.querySelector('.carousel-content');
+    const prevBtn = carouselContainer.querySelector('.prev-btn');
+    const nextBtn = carouselContainer.querySelector('.next-btn');
+
+    // Set initial button state
+    updateButtonState();
+
+    // Determine scroll amount based on screen size
+    function getScrollAmount() {
+      // On mobile, scroll full width
+      if (window.innerWidth < 768) {
+        return carousel.offsetWidth;
+      }
+      // On tablet, scroll half width
+      else if (window.innerWidth < 1200) {
+        return carousel.offsetWidth / 2;
+      }
+      // On desktop, scroll one third width
+      else {
+        return carousel.offsetWidth / 3;
+      }
+    }
+
+    // Handle button clicks
+    prevBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+    });
+
+    nextBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+    });
+
+    // Update button state on scroll
+    carousel.addEventListener('scroll', updateButtonState);
+    window.addEventListener('resize', updateButtonState);
+
+    function updateButtonState() {
+      const isAtStart = carousel.scrollLeft <= 10;
+      const isAtEnd = carousel.scrollWidth - carousel.clientWidth - carousel.scrollLeft <= 10;
+
+      prevBtn.disabled = isAtStart;
+      prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+
+      nextBtn.disabled = isAtEnd;
+      nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+    }
+  });
+</script>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<!-- End of Latest Analysis Section -->
+<!-- Start of News Section -->
+<div class="component-section">
+<section id="in-the-news" class="level1 section-heading with-view-all">
+<h1>In the News</h1>
+<p><a href="../../../pages/news/" class="view-all">View all News Items</a></p>
+</section>
+<div id="listing-recent-news" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1782066600000" data-listing-title-sort="On AI, the US and China have an outdated arms race mindset">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://indianexpress.com/article/opinion/columns/on-ai-the-us-and-china-have-an-outdated-arms-race-mindset-10750886" class="no-external">On AI, the US and China have an outdated arms race mindset</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://indianexpress.com/article/opinion/columns/on-ai-the-us-and-china-have-an-outdated-arms-race-mindset-10750886" class="no-external">
+<div class="listing-date">
+Jun 22, 2026
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1777401000000" data-listing-title-sort="How India should prepare for the Mythos era">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://indianexpress.com/article/opinion/columns/anthropic-claude-how-india-should-prepare-for-the-mythos-era-10661497" class="no-external">How India should prepare for the Mythos era</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://indianexpress.com/article/opinion/columns/anthropic-claude-how-india-should-prepare-for-the-mythos-era-10661497" class="no-external">
+<div class="listing-date">
+Apr 29, 2026
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy,Shobhankita Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2UlMkNJcmFu" data-listing-date-sort="1774722600000" data-listing-title-sort="West Asia war has exposed the fragility of our trillion-dollar AI investment">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.indianexpress.com/article/opinion/columns/west-asia-war-ai-boom-strait-of-hormuz-data-centres-iran-israel-10607590/" class="no-external">West Asia war has exposed the fragility of our trillion-dollar AI investment</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SXJhbg=='); return false;">Iran</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.indianexpress.com/article/opinion/columns/west-asia-war-ai-boom-strait-of-hormuz-data-centres-iran-israel-10607590/" class="no-external">
+<div class="listing-date">
+Mar 29, 2026
+</div>
+<div class="metadata-value listing-authors">
+Shobhankita Reddy,Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1773167400000" data-listing-title-sort="AI and the national security calculus">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.thehindu.com/opinion/op-ed/ai-and-the-national-security-calculus/article70727850.ece/amp/" class="no-external">AI and the national security calculus</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.thehindu.com/opinion/op-ed/ai-and-the-national-security-calculus/article70727850.ece/amp/" class="no-external">
+<div class="listing-date">
+Mar 11, 2026
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0V0aGljcyUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3MlMkNHb3Zlcm5hbmNl" data-listing-date-sort="1773081000000" data-listing-title-sort="AI ethics and state power">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.deccanherald.com/amp/story/opinion/ai-ethics-and-state-power-3925736" class="no-external">AI ethics and state power</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXRoaWNz'); return false;">Ethics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R292ZXJuYW5jZQ=='); return false;">Governance</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.deccanherald.com/amp/story/opinion/ai-ethics-and-state-power-3925736" class="no-external">
+<div class="listing-date">
+Mar 10, 2026
+</div>
+<div class="metadata-value listing-authors">
+Sridhar Krishna
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1770316200000" data-listing-title-sort="Indiaâs AI Ambitions And The Power Politics Behind Them">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://indiasworld.in/indias-ai-ambitions-and-the-power-politics-behind-them/" class="no-external">Indiaâs AI Ambitions And The Power Politics Behind Them</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://indiasworld.in/indias-ai-ambitions-and-the-power-politics-behind-them/" class="no-external">
+<div class="listing-date">
+Feb 6, 2026
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="R2VvcG9saXRpY3MlMkNBcnRpZmljaWFsJTIwSW50ZWxsaWdlbmNlJTJDSGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw==" data-listing-date-sort="1754937000000" data-listing-title-sort="Trumpâs AI Strategy: Beyond the race for global supremacy">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.moneycontrol.com/news/opinion/trump-s-ai-strategy-beyond-the-race-for-global-supremacy-13443628.html" class="no-external">Trumpâs AI Strategy: Beyond the race for global supremacy</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VvcG9saXRpY3M='); return false;">Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.moneycontrol.com/news/opinion/trump-s-ai-strategy-beyond-the-race-for-global-supremacy-13443628.html" class="no-external">
+<div class="listing-date">
+Aug 12, 2025
+</div>
+<div class="metadata-value listing-authors">
+Tannmay Kumarr Baid,Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1753554600000" data-listing-title-sort="Fathoming Americaâs plan to manage AI proliferation">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://www.thehindu.com/opinion/op-ed/fathoming-americas-plan-to-manage-ai-proliferation/article69741531.ece" class="no-external">Fathoming Americaâs plan to manage AI proliferation</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="http://www.thehindu.com/opinion/op-ed/fathoming-americas-plan-to-manage-ai-proliferation/article69741531.ece" class="no-external">
+<div class="listing-date">
+Jul 27, 2025
+</div>
+<div class="metadata-value listing-authors">
+Rijesh Panicker,Bharath Reddy,Ashwin Prasad Rao
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1745865000000" data-listing-title-sort="Public Funds, Private Model: Govtâs Investment in Sarvam AI Sparks Open-Source Debate">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://www.medianama.com/2025/04/223-india-sovereign-llm-sarvam-ai-government-funding-not-open-source-but-proprietary/" class="no-external">Public Funds, Private Model: Govtâs Investment in Sarvam AI Sparks Open-Source Debate</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="http://www.medianama.com/2025/04/223-india-sovereign-llm-sarvam-ai-government-funding-not-open-source-but-proprietary/" class="no-external">
+<div class="listing-date">
+Apr 29, 2025
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1745778600000" data-listing-title-sort="India's AI Compute Conundrum">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://www.thehindu.com/opinion/op-ed/indias-ai-compute-conundrum/article69497755.ece" class="no-external">Indiaâs AI Compute Conundrum</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="http://www.thehindu.com/opinion/op-ed/indias-ai-compute-conundrum/article69497755.ece" class="no-external">
+<div class="listing-date">
+Apr 28, 2025
+</div>
+<div class="metadata-value listing-authors">
+Rijesh Panicker,Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1739385000000" data-listing-title-sort="Implications of the AI Diffusion Framework">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.thehindu.com/opinion/op-ed/implications-of-the-ai-diffusion-framework/article69210897.ece" class="no-external">Implications of the AI Diffusion Framework</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.thehindu.com/opinion/op-ed/implications-of-the-ai-diffusion-framework/article69210897.ece" class="no-external">
+<div class="listing-date">
+Feb 13, 2025
+</div>
+<div class="metadata-value listing-authors">
+Ashwin Prasad Rao
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1734978600000" data-listing-title-sort="Strengthening the IndiaAI mission">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="http://www.deccanherald.com/opinion/strengthening-the-indiaai-mission-3313837" class="no-external">Strengthening the IndiaAI mission</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="http://www.deccanherald.com/opinion/strengthening-the-indiaai-mission-3313837" class="no-external">
+<div class="listing-date">
+Dec 24, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1710613800000" data-listing-title-sort="AI adoption in India: Opportunities and challenges for policy considerations">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://scroll.in/article/1064758/ai-adoption-in-india-opportunities-and-challenges-for-policy-considerations" class="no-external">AI adoption in India: Opportunities and challenges for policy considerations</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://scroll.in/article/1064758/ai-adoption-in-india-opportunities-and-challenges-for-policy-considerations" class="no-external">
+<div class="listing-date">
+Mar 17, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1709490600000" data-listing-title-sort="India-Australia collaboration on digital public infrastructure in the Pacific">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.aspistrategist.org.au/india-australia-collaboration-on-digital-public-infrastructure-in-the-pacific/" class="no-external">India-Australia collaboration on digital public infrastructure in the Pacific</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.aspistrategist.org.au/india-australia-collaboration-on-digital-public-infrastructure-in-the-pacific/" class="no-external">
+<div class="listing-date">
+Mar 4, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy,Saurabh Todi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1709490600000" data-listing-title-sort="India-Australia collaboration on digital public infrastructure in the Pacific">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.aspistrategist.org.au/india-australia-collaboration-on-digital-public-infrastructure-in-the-pacific/" class="no-external">India-Australia collaboration on digital public infrastructure in the Pacific</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.aspistrategist.org.au/india-australia-collaboration-on-digital-public-infrastructure-in-the-pacific/" class="no-external">
+<div class="listing-date">
+Mar 4, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy,Saurabh Todi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1708885800000" data-listing-title-sort="Building The Yard: Policy Considerations For AI In India">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://casi.sas.upenn.edu/iit/bharathreddy" class="no-external">Building The Yard: Policy Considerations For AI In India</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://casi.sas.upenn.edu/iit/bharathreddy" class="no-external">
+<div class="listing-date">
+Feb 26, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1708108200000" data-listing-title-sort="On Regulating AI">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.epw.in/journal/2024/7/letters/regulating-ai.html" class="no-external">On Regulating AI</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.epw.in/journal/2024/7/letters/regulating-ai.html" class="no-external">
+<div class="listing-date">
+Feb 17, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy,Mihir Mahajan
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1707417000000" data-listing-title-sort="GoIâs Rs 10,000 crore plan for a âsovereign AIâ computing infrastructure needs a rethink">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.moneycontrol.com/news/opinion/gois-rs-10000-crore-plan-for-a-sovereign-ai-computing-infrastructure-needs-a-rethink-12227961.html" class="no-external">GoIâs Rs 10,000 crore plan for a âsovereign AIâ computing infrastructure needs a rethink</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.moneycontrol.com/news/opinion/gois-rs-10000-crore-plan-for-a-sovereign-ai-computing-infrastructure-needs-a-rethink-12227961.html" class="no-external">
+<div class="listing-date">
+Feb 9, 2024
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1656700200000" data-listing-title-sort="Nurturing open source is in our national interest">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://www.deccanherald.com/opinion/nurturing-open-source-is-in-our-national-interest-1123205.html" class="no-external">Nurturing open source is in our national interest</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="https://www.deccanherald.com/opinion/nurturing-open-source-is-in-our-national-interest-1123205.html" class="no-external">
+<div class="listing-date">
+Jul 2, 2022
+</div>
+<div class="metadata-value listing-authors">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="recent-news-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</div>
+<p><!-- End of News Section --></p>
+<!-- Start of Latest Blogs Section -->
+<div class="component-section">
+<section id="blogs" class="level1 section-heading with-view-all">
+<h1>Blogs</h1>
+<p><a href="../../../pages/blogs/" class="view-all">View all Blogs</a></p>
+</section>
+<div id="listing-latest-blogs" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0FJJTIwR292ZXJuYW5jZSUyQ1BsYXRmb3JtJTIwR292ZXJuYW5jZSUyQ1ByaW5jaXBsZXM=" data-listing-date-sort="1784485800000" data-listing-file-modified-sort="1784670152543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="967">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260720-Available-Isnt-Accessible.html" class="no-external">Available Isnât Accessible</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBHb3Zlcm5hbmNl'); return false;">AI Governance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhdGZvcm0lMjBHb3Zlcm5hbmNl'); return false;">Platform Governance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpbmNpcGxlcw=='); return false;">Principles</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260720-Available-Isnt-Accessible.html" class="no-external">
+<div class="listing-date">
+Jul 20, 2026
+</div>
+<div class="listing-author">
+Gopal Tomar
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1783103400000" data-listing-file-modified-sort="1784670152543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3417">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260704-open-weight-model-censorship.html" class="no-external">Where Censorship Lives On Chinese Open Weight AI Models</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260704-open-weight-model-censorship.html" class="no-external">
+<div class="listing-date">
+Jul 4, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1777401000000" data-listing-file-modified-sort="1784670152542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260429-china-meta-manus.html" class="no-external">China, Meta, Manus, and the New Shape of High-Tech Geopolitics</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260429-china-meta-manus.html" class="no-external">
+<div class="listing-date">
+Apr 29, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2UlMkNBSSUyQ0FJJTIwR292ZXJuYW5jZSUyQ1ByaW5jaXBsZXMlMkNQb2xpY3k=" data-listing-date-sort="1773081000000" data-listing-file-modified-sort="1784670152541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1831">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260310-AI-Policy-Framework.html" class="no-external">Why Imperfect Actors Still Move Technology Forward</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBHb3Zlcm5hbmNl'); return false;">AI Governance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpbmNpcGxlcw=='); return false;">Principles</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9saWN5'); return false;">Policy</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260310-AI-Policy-Framework.html" class="no-external">
+<div class="listing-date">
+Mar 10, 2026
+</div>
+<div class="listing-author">
+Arindam Goswami
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1773081000000" data-listing-file-modified-sort="1784670152542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="777">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260310_non-proliferation-trap.html" class="no-external">The Non-Proliferation Trap - How AI Safety Narratives Armed the Pentagon Against Anthropic</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260310_non-proliferation-trap.html" class="no-external">
+<div class="listing-date">
+Mar 10, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1773081000000" data-listing-file-modified-sort="1784670152542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="929">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260310_on-ai-sovereignty.html" class="no-external">Not The AI Sovereignty We Want, But The One We Can Get</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260310_on-ai-sovereignty.html" class="no-external">
+<div class="listing-date">
+Mar 10, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2UlMkNEYXRhJTIwQ2VudHJlcyUyQ1Bvd2VyJTJDVW5pb24lMjBCdWRnZXQ=" data-listing-date-sort="1770057000000" data-listing-file-modified-sort="1784670152539" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260203-data-centres-AI-budget-analysis.html" class="no-external">Why Tax Breaks Alone Wonât Suffice For Indiaâs AI Ambitions</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMENlbnRyZXM='); return false;">Data Centres</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXI='); return false;">Power</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VW5pb24lMjBCdWRnZXQ='); return false;">Union Budget</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260203-data-centres-AI-budget-analysis.html" class="no-external">
+<div class="listing-date">
+Feb 3, 2026
+</div>
+<div class="listing-author">
+Arindam Goswami
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1770057000000" data-listing-file-modified-sort="1784670152540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1036">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260203_ai-mission-budget-analysis.html" class="no-external">Decoding the budget for Indiaâs AI priorities</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260203_ai-mission-budget-analysis.html" class="no-external">
+<div class="listing-date">
+Feb 3, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1769797800000" data-listing-file-modified-sort="1784670152539" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="686">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20260131_the-logic-of-us-china-ai-competition.html" class="no-external">The Logic of US-China AI Competition</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20260131_the-logic-of-us-china-ai-competition.html" class="no-external">
+<div class="listing-date">
+Jan 31, 2026
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcyUyQ0FydGlmaWNpYWwlMjBJbnRlbGxpZ2VuY2U=" data-listing-date-sort="1763577000000" data-listing-file-modified-sort="1784670152531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="612">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20251120-is-the-eu-deregulating-its-tech.html" class="no-external">Is the EU Deregulating its Tech?</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20251120-is-the-eu-deregulating-its-tech.html" class="no-external">
+<div class="listing-date">
+Nov 20, 2025
+</div>
+<div class="listing-author">
+Anwesha Sen
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1763404200000" data-listing-file-modified-sort="1784670152531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20251118-ai-safety-market-failure.html" class="no-external">AI Safety is a Market Failure: Lessons from the Anthropic Disclosure</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20251118-ai-safety-market-failure.html" class="no-external">
+<div class="listing-date">
+Nov 18, 2025
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1763317800000" data-listing-file-modified-sort="1784670152531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="313">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20251117-what-we-lose-when-ai-filters-our-perception.html" class="no-external">What We Lose When AI Filters Our Perception</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20251117-what-we-lose-when-ai-filters-our-perception.html" class="no-external">
+<div class="listing-date">
+Nov 17, 2025
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1762108200000" data-listing-file-modified-sort="1784670152531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20251103-do-deepfakes-need-separate-regulations.html" class="no-external">Do deepfakes need separate regulations?</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20251103-do-deepfakes-need-separate-regulations.html" class="no-external">
+<div class="listing-date">
+Nov 3, 2025
+</div>
+<div class="listing-author">
+Anwesha Sen
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1760034600000" data-listing-file-modified-sort="1784670152531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20251010-What-India-Canada-Tech-Partnership.html" class="no-external">What India and Canada Can Do Together</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20251010-What-India-Canada-Tech-Partnership.html" class="no-external">
+<div class="listing-date">
+Oct 10, 2025
+</div>
+<div class="listing-author">
+Pranay Kotasthane
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1753641000000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250728-OpenSource-AI-Becomes-a-Strategic-Priority.html" class="no-external">Open Source AI Becomes a Strategic Priority</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250728-OpenSource-AI-Becomes-a-Strategic-Priority.html" class="no-external">
+<div class="listing-date">
+Jul 28, 2025
+</div>
+<div class="listing-author">
+Pranay Kotasthane
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3MlMkNDaGluYQ==" data-listing-date-sort="1753209000000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="380">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250723-H20-China.html" class="no-external">Implications of H20 Sale Resumption to China</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hpbmE='); return false;">China</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250723-H20-China.html" class="no-external">
+<div class="listing-date">
+Jul 23, 2025
+</div>
+<div class="listing-author">
+Pranay Kotasthane
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==" data-listing-date-sort="1753122600000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250721-writing-for-an-ai-audience.html" class="no-external">Writing for an AI audience</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250721-writing-for-an-ai-audience.html" class="no-external">
+<div class="listing-date">
+Jul 22, 2025
+</div>
+<div class="listing-author">
+Bharath Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1751567400000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="775">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250704-ai-diffusion-framework-repeal.html" class="no-external">The AI Diffusion Framework Was Repealed. What Does This Mean For India?</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250704-ai-diffusion-framework-repeal.html" class="no-external">
+<div class="listing-date">
+Jul 4, 2025
+</div>
+<div class="listing-author">
+Ashwin Prasad Rao, Bharath Reddy, Rijesh Panicker
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1742841000000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1040">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250325-pathways-to-ai-sovereignty-for-india.html" class="no-external">Pathways to AI Sovereignty for India</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250325-pathways-to-ai-sovereignty-for-india.html" class="no-external">
+<div class="listing-date">
+Mar 25, 2025
+</div>
+<div class="listing-author">
+Shobhankita Reddy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0hpZ2glMjBUZWNoJTIwR2VvcG9saXRpY3M=" data-listing-date-sort="1738261800000" data-listing-file-modified-sort="1784670152530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1100">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../content/blogs/20250131-ai-diffusion-rules.html" class="no-external">Do the AI Diffusion Rules mean India cannot get more than 50,000 advanced GPUs?</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaCUyMFRlY2glMjBHZW9wb2xpdGljcw=='); return false;">High Tech Geopolitics</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../../../content/blogs/20250131-ai-diffusion-rules.html" class="no-external">
+<div class="listing-date">
+Jan 31, 2025
+</div>
+<div class="listing-author">
+Satya Shoova Sahu, Ashwin Prasad Rao
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="latest-blogs-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</div>
+<!-- End of Latest Blogs Section -->
+<!-- Start of Teams Section -->
+<div class="component-section">
+<section id="meet-the-team" class="level1 section-heading with-view-all">
+<h1>Meet the Team</h1>
+<p><a href="../../../pages/team/" class="view-all">View Team</a></p>
+</section>
+<div id="listing-artificial-intelligence-team" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-section">
+    
+        <div class="listing-grid">
+            
+                <a href="../../../content/team/bharath-reddy.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Bharath_Reddy.png" alt="Bharath Reddy">
+                    
+                    <div class="team-member-info">
+                        <h2>Bharath Reddy</h2>
+                        
+                            <p>Associate Fellow with the High-Tech Geopolitics Programme</p>
+                        
+                    </div>
+                </a>
+            
+                <a href="../../../content/team/rijesh-panicker.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Rijesh_Panicker.png" alt="Rijesh Panicker">
+                    
+                    <div class="team-member-info">
+                        <h2>Rijesh Panicker</h2>
+                        
+                            <p>Fellow with the High-Tech Geopolitics Programme</p>
+                        
+                    </div>
+                </a>
+            
+                <a href="../../../content/team/sridhar-krishna.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Sridhar_Krishna.png" alt="Sridhar Krishna">
+                    
+                    <div class="team-member-info">
+                        <h2>Sridhar Krishna</h2>
+                        
+                            <p>Senior Scholar at the Takshashila Institution</p>
+                        
+                    </div>
+                </a>
+            
+                <a href="../../../content/team/anwesha-sen.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Anwesha_Sen.png" alt="Anwesha Sen">
+                    
+                    <div class="team-member-info">
+                        <h2>Anwesha Sen</h2>
+                        
+                            <p>Assistant Programme Manager</p>
+                        
+                    </div>
+                </a>
+            
+                <a href="../../../content/team/arindam-goswami.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Arindam_Goswami.png" alt="Arindam Goswami">
+                    
+                    <div class="team-member-info">
+                        <h2>Arindam Goswami</h2>
+                        
+                            <p>Staff Research Analyst for the High-Tech Geopolitics Programme</p>
+                        
+                    </div>
+                </a>
+            
+                <a href="../../../content/team/ashwin-prasad-rao.html" class="team-member-card">
+                    
+                        <img src="../../../content/team/images/Ashwin_Prasad_Rao.png" alt="Ashwin Prasad Rao">
+                    
+                    <div class="team-member-info">
+                        <h2>Ashwin Prasad Rao</h2>
+                        
+                            <p>Staff Research Analyst for the Advanced Military Technology and Outer Space Programme</p>
+                        
+                    </div>
+                </a>
+            
+        </div>
+    
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<!-- End of Teams Section -->
+<!-- Code commented out due to no content -->
+<!-- Start of Contributors Section 
+
+::: {.component-section}
+::: {.section-heading .with-view-all}
+# Contributors
+[View Team](/pages/team/){.view-all}
+:::
+
+::: {#artificial-intelligence-team}
+:::
+:::
+
+ End of Contributors Section -->
+
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/takshashila\.org\.in");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<!-- Footer Component with Social Media Banner -->
+
+<div class="social-banner">
+    <div class="social-banner-container">
+        <div class="social-text">Follow us to get the latest policy updates</div>
+        <div class="social-icons">
+            <a href="https://x.com/TakshashilaInst" class="social-icon" aria-label="Twitter Profile" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/school/the-takshashila-institution/mycompany" class="social-icon" aria-label="LinkedIn Company" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/takshashilainst/" class="social-icon" aria-label="Instagram Page" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/c/TakshashilaInst" class="social-icon" aria-label="Youtube Channel" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512">
+                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Component -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Left Side: Organization Info -->
+        <div class="footer-org-info">
+            <img src="../../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="footer-logo">
+            <div class="org-description">
+                Connecting good people to good ideas and good networks.
+            </div>
+            <div class="org-address">
+                The Takshashila Institution<br>
+                2nd floor, 46/1, Cobalt Building, Church Street<br>
+                Bengaluru, Karnataka, India - 560001
+            </div>
+        </div>
+
+        <!-- Right Side: Navigation Links Grid -->
+        <div class="footer-nav-grid">
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Think Tank</h3>
+                <ul class="footer-links">
+                    <li><a href="../../../pages/research-areas/">Research</a></li>
+                    <li><a href="../../../pages/publications/">Analysis</a></li>
+                    <li><a href="../../../content/podcasts/all-things-policy/index.html">All things policy</a></li>
+                    <li><a href="../../../pages/newsletters/">Newsletter</a></li>
+                    <li><a href="../../../pages/ai-policy.html">Principles for the use of AI</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Education</h3>
+                <ul class="footer-links">
+                    <li><a href="../../../pages/policy-school/">Policy School</a></li>
+                    <li><a href="https://opentakshashila.net/" target="_blank">Open Takshashila</a></li>
+                    <li><a href="https://www.politicalmandala.in/" target="_blank" rel="noopener noreferrer">Political Mandala</a></li>
+                    <li><a href="../../../pages/takshashila-library.html">Takshashila Library</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="../../../pages/ombudsman.html">Ombudsman</a></li>
+                    <li><a href="../../../pages/terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="../../../pages/privacy.html">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">About</h3>
+                <ul class="footer-links">
+                    <li><a href="../../../pages/mission.html">Mission</a></li>
+                    <li><a href="../../../pages/milestones.html">Milestones</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="copyright">
+            Copyright Â© 2010-2026. The Takshashila Institution. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body></html>

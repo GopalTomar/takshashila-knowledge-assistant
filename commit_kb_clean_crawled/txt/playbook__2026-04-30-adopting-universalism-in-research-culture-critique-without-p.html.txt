@@ -1,0 +1,34 @@
+Adopting Universalism in Research Culture: Critique Without Power Dynamics
+playbook
+Takshashila should embrace a research culture where ideas are critiqued based on merit alone, not the identity or status of who proposes them.
+Published
+April 30, 2026
+TL;DR
+: Takshashila should embrace a research culture where ideas are critiqued based on merit alone, not the identity or status of who proposes them.
+Key Points
+Research institutions should critique ideas universally, not shield scholars based on power dynamics or identity
+Avoiding criticism of junior or marginalized researchers can be infantilizing and exclude them from full participation in science
+Modern power dynamics are multidimensional—junior researchers can have significant online influence
+Critique should be rigorous but delivered with care, distinguishing between idea criticism and personal attacks
+Takshashila's identity as a research establishment, not conventional corporate, supports adopting this culture
+Decisions Made
+✅ Takshashila should adopt a corporate culture based on universal critique of ideas regardless of author identity or status
+Context
+This conversation arose from leadership reflecting on organizational culture and research standards at Takshashila Institution. The discussion was prompted by an academic essay about the problems with 'punching down' norms in academia and the need for universal standards in scholarly critique.
+Links & References
+Michael Inzlicht's essay on universalism and critique in research
+Original Thread
+[2026-04-30 03:57 UTC] @nitinpai: Please go through [this post](https://x.com/minzlicht/status/2049492221360025765). A lot of people get carried away by social norms. We are not a conventional corporate. We are a research establishment, and to do our job well, [this](https://x.com/minzlicht/status/2049492221360025765) should be our corporate culture.
+
+[2026-04-30 05:50 UTC] @pranaykotas: This essay argues that good science requires critiquing ideas universally, not shielding "less powerful" scholars from rigorous public criticism.
+
+Michael Inzlicht describes how a norm against "punching down" in academia made senior scholars wary of publicly criticizing students or marginalized researchers, even when their work was weak. He gives examples: a "hot women don't feel cold" paper and a qualitative policing study, where critics were attacked for power dynamics instead of their substantive points. He also skewers "sycophancy down," where average work by marginalized scholars gets exaggerated praise, which he sees as patronizing rather than protective.
+
+He anchors his argument in Merton's norm of universalism: scientific claims should be judged by shared standards, irrespective of who makes them. If we avoid critiquing junior or marginalized scholars, we implicitly treat them as less-than-full participants in science, which is infantilizing. He also notes that "power" is now multi-dimensional: a grad student with a large online following or activist backing can exert real reputational power over a tenured professor, making the punch-up/punch-down frame incoherent.
+
+At the same time, he insists criticism must be delivered with care. Drawing on the Talmudic view that public humiliation is akin to shedding blood, he distinguishes between rigorous critique and personal denigration. The right ideal, in his view, is open, public disagreement about ideas, offered civilly and kindly, with no exemptions from scrutiny based on identity or career stage. Calling for "better fights," he closes by inviting readers to criticize his own argument, regardless of their status.
+
+[2026-04-30 06:06 UTC] @pranaykotas: !kb
+
+[2026-04-30 06:06 UTC] @kb-bot: Processing this thread...
+From #sesame · 3 participants · How We Do Things

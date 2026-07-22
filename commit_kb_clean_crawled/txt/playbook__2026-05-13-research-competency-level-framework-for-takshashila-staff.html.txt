@@ -1,0 +1,40 @@
+Research Competency Level Framework for Takshashila Staff
+playbook
+Establishes a 3-tier framework (Observer, Analyst, Expert) to help Takshashila staff understand career progression expectations in research roles.
+Published
+May 13, 2026
+TL;DR
+: Establishes a 3-tier framework (Observer, Analyst, Expert) to help Takshashila staff understand career progression expectations in research roles.
+Key Points
+Level 1 (Observer): Focus on tracking current developments, providing accurate briefs, and research assistance
+Level 2 (Analyst): Connect patterns across fields, prepare assessments, and teach graduate courses independently
+Level 3 (Expert): Develop theories and frameworks, make policy recommendations, and design complete academic programs
+Framework designed to help staff understand career transition pathways within the organization
+Decisions Made
+✅ Framework to be published to enable staff career transitions
+Context
+This appears to be part of Takshashila's internal capacity building efforts to create clear career progression pathways for research staff. The framework provides structured expectations for different seniority levels in research roles.
+Original Thread
+[2025-11-20 09:40 UTC] @nitinpai: Here's a draft of a Research Competency Level Framework. Please comment/suggest edits. 
+
+We should put this out to enable staff to make these transitions. 
+
+### Level 1 - Observer
+What you do: follow current developments through multiple sources and viewpoints, and have up-to-minute information on current affairs related to the field. Follow the work of key analysts and scholars. This includes knowledge of key players, their interests, motivations and goals; dynamics between players; accurate facts and figures at the fingertips
+
+What you should be able to do: write & present accurate & up-to-minute briefs, provide research assistance in terms of finding sources, correct citation. Assist in teaching specific classes in graduate programmes.
+
+### Level 2 - Analyst
+What you do: be familiar with the latest developments in the field, be familiar with developments in adjacent fields, be familiar with the work of other analysts, be able to connect dots and discern patterns, be familiar with models of the world and how they work. 
+
+What you should be able to do: prepare and present assessments and creative policy options; teach a full course module in a graduate programme independently
+
+### Level 3 - Expert
+What you do: Be familiar with all important analytical perspectives in the field, understand limitations of current knowledge, understand stakeholder interests, suggest policy recommendations, look out & nurture breakthrough ideas 
+
+What you should be able to do: develop theories and conceptual frameworks to explain phenomena and help predict outcomes, make policy recommendations, develop complete courses in graduate programmes 
+
+[2026-05-13 06:13 UTC] @pranaykotas: !kb
+
+[2026-05-13 06:13 UTC] @kb-bot: Processing this thread...
+From #sesame · 3 participants · How We Do Things

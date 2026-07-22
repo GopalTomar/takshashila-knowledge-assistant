@@ -1,0 +1,35 @@
+Research visualization guidelines for cleaner charts and tables
+playbook
+Takshashila researchers should follow data visualization best practices to improve the aesthetic quality and clarity of charts in publications.
+Published
+March 16, 2026
+TL;DR
+: Takshashila researchers should follow data visualization best practices to improve the aesthetic quality and clarity of charts in publications.
+Key Points
+Delete grid lines from charts for cleaner appearance
+Use clear titles that state the insight and include measurement units
+Prefer bar/line/column charts over pie charts
+Avoid 3D formatting - stick to simple 2D visualizations
+Decisions Made
+✅ Researchers must improve chart aesthetics following established best practices
+Action Items
+Anushka to improve visualization quality in future work
+Context
+This conversation arose from quality feedback on recent Takshashila research publications, specifically the EU rearmament paper and China survey, where chart and table aesthetics were identified as needing improvement. The discussion establishes visualization standards for the research team.
+Original Thread
+[2026-03-10 06:30 UTC] @nitinpai: @anushka_saxena Good work on the EU rearmament paper. Timely paper. The charts and tables are horrible from an aesthetic point of view. I noticed this in our China survey also. Look at the best in the field do and adopt best practices. No more ugly please.
+
+[2026-03-10 06:36 UTC] @anushka_saxena: Noted- Will do my best Nitin.
+
+[2026-03-10 13:20 UTC] @pranaykotas: Some good practices:
+1. Delete grid lines. 
+2. Have a clear title on top which is the insight from the chart (mention units of the quantity being measured).
+3. Avoid pie charts. Use bar charts/line charts/column charts mostly.
+4. Avoid 3D bars. Simple 2D bars will do.
+
+Check my chapter in *In Hard Times* book for reference. Or charts in our PHFI health expenditure study. 
+
+[2026-03-16 15:23 UTC] @pranaykotas: !kb
+
+[2026-03-16 15:23 UTC] @kb-bot: Processing this thread...
+From #research · 4 participants · How We Do Things

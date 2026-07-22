@@ -1,0 +1,42 @@
+{
+  "source": "website",
+  "source_name": "Takshashila Website",
+  "ingested_at": "2026-07-03T07:07:58Z",
+  "total_documents": 1271,
+  "category_counts": {
+    "defence & security": 34,
+    "pdf": 203,
+    "economy & trade": 9,
+    "china studies": 46,
+    "ai governance": 5,
+    "energy & climate": 10,
+    "geospatial": 5,
+    "cyber & digital": 9,
+    "nuclear policy": 2,
+    "south asia": 10,
+    "semiconductors": 8,
+    "indo-pacific": 6,
+    "space policy": 2,
+    "health": 10,
+    "education": 1,
+    "publication": 440,
+    "blog": 247,
+    "page": 59,
+    "article": 165
+  },
+  "type_counts": {
+    "pdf": 365,
+    "publication": 440,
+    "blog": 247,
+    "page": 57,
+    "article": 162
+  },
+  "shortest_doc": 127,
+  "longest_doc": 375546,
+  "avg_doc_length": 17065.2,
+  "files": {
+    "jsonl": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_website.jsonl",
+    "index": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_website_index.json",
+    "metadata": "D:\\takshashila-rag\\data\\knowledge_base\\takshashila_website_metadata.json"
+  }
+}

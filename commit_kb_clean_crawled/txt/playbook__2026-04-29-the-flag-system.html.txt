@@ -1,0 +1,32 @@
+The Flag System — Gold, Red, Yellow, White
+playbook
+How Takshashila uses four flags to signal achievements, blockers, and accountability in day-to-day work.
+Published
+April 29, 2026
+TL;DR
+: Four flags — Gold (win), Red (urgent blocker), Yellow (stuck after asking), White (owning a mistake) — are the shared language for signalling work status at Takshashila.
+Key Points
+Flags are raised in meetings and on Mattermost, not just kept private
+Gold flags feed into stakeholder reports and performance reviews — raise them
+Don't wait for a meeting to raise a Red flag; do it immediately
+White flags are encouraged, not penalised — mistakes are steps toward growth
+The Four Flags
+🟡 Gold Flag — Achievements
+Claim when an achievement is unlocked or when you want to share something that made you happy or proud.
+Use for: publications, successful events, closed grants, positive stakeholder feedback, course completions.
+Also feeds into stakeholder reporting and performance reviews — log them.
+🔴 Red Flag — Urgent Blocker
+Raise when your progress is blocked, there is a crisis, and you need immediate help and attention from colleagues.
+Do not wait for the next meeting.
+Post on Mattermost right away.
+🟠 Yellow Flag — Persistent Blocker
+Raise when you have already asked for help and are still stuck. Escalates the red flag to the whole team.
+🏳️ White Flag — Owning a Mistake
+Raise to own up to mistakes and oversights.
+The organisation actively encourages white flags. Surfacing mistakes quickly allows collective course-correction. Hiding them does not.
+Where Flags Are Raised
+Weekly Ops Meeting
+(Tuesdays 11:30am) — standard venue for flags
+Mattermost
+— for red flags that can't wait
+From staff-handbook · Takshashila Institution · playbook

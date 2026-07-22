@@ -1,0 +1,31 @@
+Start Here
+New to Takshashila? This page is your entry point to the institutional memory. Read these before your first week is out.
+1. Who we are
+Who We Are — Takshashila Profile
+What Takshashila is, what it does, and how it is organised — research circles, Policy School, public outputs.
+Mission, Values & Code of Conduct
+The founding mission, Nitin Pai's addendum on values, and the code of conduct all staff are expected to embody. Read this first.
+2. Your first week
+Your First Week Checklist
+What to do, who to meet, and what to set up in week one — from email to Mattermost to health insurance.
+3. How we think and communicate
+How We Think — Critical Thinking Norms
+The Reverse Bollywood Format, Sagan's method, and the three-alternatives rule. How to frame arguments and raise issues.
+House Rules & Problem-Solving Norms
+Day-to-day norms: digital tools, office conduct, and the culture of initiative over permission-seeking.
+4. How we meet
+Meeting Rules & Mandatory Meetings
+Two mandatory all-staff meetings weekly, the event classification system, and how to run meetings on time.
+The Flag System — Gold, Red, Yellow, White
+The shared language for signalling wins, blockers, and accountability.
+Tankscrub — Philosophy & Format
+What Thursday mornings are for. Deliberately informal. "Our work is too serious for seriousness."
+5. What's expected of you
+Core Competencies Every Staff Member Must Have
+The five skills all staff must develop regardless of role: webinars, Nagara, event planning, communication, data.
+6. Key policies
+Key Policies — POSH, Leave, Laptop, Confidentiality
+The essential HR policies: harassment, confidentiality, skill development reimbursement, and the laptop policy.
+Questions? Ask on Mattermost or search this knowledge base with
+!kb find <query>
+.

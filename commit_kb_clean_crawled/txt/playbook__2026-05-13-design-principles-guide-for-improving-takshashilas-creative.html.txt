@@ -1,0 +1,31 @@
+Design Principles Guide for Improving Takshashila's Creative Output
+playbook
+Basic creative design knowledge can transform Takshashila's good work into excellent work by maintaining design logic when customizing templates.
+Published
+May 13, 2026
+TL;DR
+: Basic creative design knowledge can transform Takshashila's good work into excellent work by maintaining design logic when customizing templates.
+Key Points
+Takshashila's outputs could be elevated from very good to excellent with basic design knowledge
+Customizing templates in Canva/PowerPoint often destroys the underlying design logic
+Small changes like fonts, spacing, and colors can significantly impact the overall design
+Staff can use learning budget to take formal design courses for deeper knowledge
+Decisions Made
+✅ Staff are encouraged to use learning budget for design courses if interested
+Context
+This conversation emerged from Nitin's observation that Takshashila's creative outputs, while good, were falling short of excellence due to design issues. The discussion focuses on how seemingly minor customizations to design templates can undermine professional presentation quality.
+Links & References
+Graphic Design Basics cheat sheet from 99designs
+Original Thread
+[2023-10-31 04:26 UTC] @nitinpai: I have now seen several things we've produced that would have been excellent (and not merely very good) had the people producing them been aware of basic ideas in creative design. 
+
+Canva, PowerPoint etc are powerful tools and make it easy to produce cool artwork. However, when we customise them we often destroy the underlying design logic. Changing fonts, spacing, colour etc might seem a minor change but can unsettle the big picture. 
+
+Here's a quick cheat sheet to get a hang of creative design. There's more to go, and those of you who want to take a course in this can use our learning budget to do so. 
+
+https://99designs.com/blog/tips/graphic-design-basics/
+
+[2026-05-13 06:16 UTC] @pranaykotas: !kb
+
+[2026-05-13 06:16 UTC] @kb-bot: Processing this thread...
+From #Nitin's Arrows · 3 participants · How We Do Things

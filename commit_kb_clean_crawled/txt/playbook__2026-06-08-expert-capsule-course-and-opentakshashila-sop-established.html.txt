@@ -1,0 +1,41 @@
+Expert Capsule Course and OpenTakshashila SOP Established
+playbook
+A standardized operating procedure for Expert Capsule Courses and OpenTakshashila programs has been created to streamline coordination across teams.
+Published
+June 8, 2026
+TL;DR
+: A standardized operating procedure for Expert Capsule Courses and OpenTakshashila programs has been created to streamline coordination across teams.
+Key Points
+Expert Capsule Courses and OpenTakshashila courses are now conducted on a regular monthly cadence
+New SOP provides clear accountability framework across Accounts team, ECC/OpenTakshashila owners, and Policy School
+Leah Govias designated as SPOC for ECC owner onboarding and process oversight
+SOP will be announced during Tuesday Ops meeting and shared organization-wide
+Only 'OpenTakshashila' should be used as the program name, not abbreviated forms
+Decisions Made
+✅ Leah Govias appointed as SPOC for ECC owner onboarding and process oversight
+✅ SOP to be announced during Tuesday Ops meeting and shared organization-wide
+Action Items
+Team to review SOP document before SSM discussion
+Malathi to announce SOP during Tuesday Ops meeting
+Malathi to share SOP with rest of organization after Tuesday Ops
+Context
+With Expert Capsule Courses and OpenTakshashila programs now running on a regular monthly schedule, the organization needed standardized procedures to manage coordination between multiple teams including Accounts, program owners, and the Policy School. This SOP document was created to address operational challenges and ensure clear accountability.
+Links & References
+Expert Capsule Course-OpenTakshashila - SOP Document
+ECC-Programme Managers Guide
+ECC-OT Calendar
+Original Thread
+[2026-06-08 04:25 UTC] @malathi: **[Expert Capsule Course-OpenTakshashila - SOP Document](https://docs.google.com/document/d/19aoFjRT48163m8uULycy7_rCfI8ylnYkY5239R5EabE/edit?usp=sharing)**
+- With the ECC and OpenTakshashila courses now being conducted on a regular cadence (avg: 1/month), this SOP has been compiled to ensure streamlined coordination and clear accountability across the Accounts team, ECC/Open Takshashila owners, and the Policy School.
+- Please review and we can go over the salient features during our SSM. I plan to announce it during our Tuesday Ops tomorrow and share it with the rest of the Org thereafter.
+
+Note
+- @leahgovias will be the SPOC to help ECC-owners get started and oversee processes
+- Related documents : [ECC-Programme Managers Guide](https://docs.google.com/document/d/1ahxPVp4MoSVBmh8QdR-N5lX4LekE7AA8FZcuPJbSwDA/edit?usp=sharing) and [ECC-OT Calendar](https://docs.google.com/spreadsheets/d/1M6ZCqC51zoLwZlMQDiZI0PwWLpRRnJ2QBOEjLPd8Z28/edit?usp=sharing)
+
+[2026-06-08 04:29 UTC] @pranaykotas: Please do not use OT etc. OpenTakshashila is the only name we use.
+
+[2026-06-08 11:10 UTC] @pranaykotas: !kb
+
+[2026-06-08 11:10 UTC] @kb-bot: Processing this thread...
+From #sesame · 3 participants · How We Do Things

@@ -1,0 +1,42 @@
+New Framework: Grounding Takshashila Policy in 21st Century Realities
+playbook
+Takshashila is implementing a systematic framework to ensure all policy analysis incorporates climate change, energy transition, information age, and complexity considerations.
+Published
+May 13, 2026
+TL;DR
+: Takshashila is implementing a systematic framework to ensure all policy analysis incorporates climate change, energy transition, information age, and complexity considerations.
+Key Points
+All policy analysis must address four core 21st century realities: climate change, energy transition, information age (RNS/AI), and complexity
+Compliance tracking via spreadsheet for internal conference papers, policy briefs, working papers, and discussion documents
+Blog posts, newsletters, and op-eds are optional for this framework
+Implementation starts with May conference papers with May 29 deadline
+Research coordinators assigned: Sarthak for conferences, Satya for future ones, Shambhavi for research docs
+Decisions Made
+✅ Mandatory incorporation of 21st century realities framework in all policy analysis
+✅ Google spreadsheet system implemented for tracking compliance
+✅ Sarthak coordinates May conference compliance with May 29 deadline
+Action Items
+Sarthak to coordinate May conference authors to complete spreadsheet by May 29
+Conference authors to populate Google sheet for their May presentations
+Shambhavi to oversee research document compliance going forward
+Context
+This appears to be part of Takshashila's effort to modernize its policy analysis methodology, ensuring that traditional policy thinking is updated to address contemporary global challenges. The framework reflects recognition that 21st century policy problems require consideration of interconnected issues like climate, technology, and systems complexity.
+Links & References
+Grounding Takshashila Policy in 21st Century Realities - Google Spreadsheet
+Original Thread
+[2024-05-23 03:39 UTC] @nitinpai: As we've discussed earlier, all our policy analysis must be grounded in 21st century realities -- essentially incorporate the implications of/for climate change, energy transition, information age (incl RNS and AI) and complexity. We must do this in a disciplined way and it must enter our thinking culture. 
+
+To take this forward one step, I've made a simple spreadsheet. I would like it to be populated by (a) authors of internal conference papers (b) authors of policy briefs/working papers/discussion documents; and OPTIONALLY (c) blog posts/newsletters/op-eds 
+
+Let's start with yesterday's conference; @sarthak can coordinate (with 29 May deadline). @satya can take it up from the next one. For research docs @shambhavi_naik please use your gavel.
+
+:point_right: Here's the Google Doc: [Grounding Takshashila Policy in 21st Century Realities](https://docs.google.com/spreadsheets/d/1WXupXmqLaz_80TNWS6oSS0Arcyu59Kf5ZHZAsx77k1k/edit?usp=sharing)
+
+[2024-05-28 08:02 UTC] @anushka_saxena: @nitinpai I am curious - can you give an example? What do you mean, for example, when you say to ground my paper on drone warfare in 'complexity'?
+
+[2024-05-29 09:03 UTC] @sarthak: @anushka_saxena , @bharatsharma , @satyas , @amit , @ashwin - Please fill up the google sheet for your respective May Internal Conference research themes 
+
+[2026-05-13 06:15 UTC] @pranaykotas: !kb
+
+[2026-05-13 06:15 UTC] @kb-bot: Processing this thread...
+From #Nitin's Arrows · 5 participants · How We Do Things

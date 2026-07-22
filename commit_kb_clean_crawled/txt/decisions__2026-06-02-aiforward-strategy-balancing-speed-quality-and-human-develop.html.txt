@@ -1,0 +1,30 @@
+AIForward Strategy: Balancing Speed, Quality, and Human Development
+decisions
+Takshashila is implementing an AIForward approach that emphasizes rapid iteration, hiring high-capability people, maintaining quality through internal friction, and shifting toward idea promotion over pure output.
+Published
+June 2, 2026
+TL;DR
+: Takshashila is implementing an AIForward approach that emphasizes rapid iteration, hiring high-capability people, maintaining quality through internal friction, and shifting toward idea promotion over pure output.
+Key Points
+Rapid iteration needed for initial hypothesis and middle cycles, with more deliberate approach to final stage outputs
+Hiring strategy targets 'first quadrant' candidates with both high AIQ and human IQ
+Quality control through 'internal friction': handwritten work in first year, mandatory circle head reviews for op-eds, compulsory seminars for research
+Performance evaluation shift toward 'warrior' mindset focused on persuasion and idea promotion rather than just scholarly output
+Decisions Made
+✅ Implement AIForward strategy with emphasis on rapid early/middle cycles
+✅ Require all new hires to handwrite everything in their first year
+✅ Make circle head approval mandatory for all op-eds
+✅ Make seminars compulsory for research documents
+✅ Include persuasion and idea promotion in performance appraisals
+Context
+This appears to be strategic guidance from leadership about how Takshashila should adapt its research and operational processes in an AI-enabled environment. The discussion reflects concerns about maintaining quality and human development while leveraging AI capabilities for faster output cycles.
+Original Thread
+[2026-06-02 05:34 UTC] @pranaykotas: 1. Focus on getting earlier cycles of outputs rapidly (initial hypothesis). Middle cycles also need to be done rapidly. We need to think through more about the final stage. 
+2. We want people in first quadrant (high AIQ, high Human IQ)
+3. Since we care for our people, we need to put in internal friction. Handwrite everything in the first year. No op-ed goes without running the argument by circle heads. Seminars are compulsory for research documents.
+4. AIForward implies spending more time on persuasion and sales of your idea instead of only writing more outputs. More of a warrior rather than a scholar. Need to introduce that into our appraisal
+
+[2026-06-02 05:59 UTC] @pranaykotas: !kb
+
+[2026-06-02 05:59 UTC] @kb-bot: Processing this thread...
+From #sesame · 2 participants · What We Decided

@@ -1,0 +1,35 @@
+Low Course Uptake Attributed to Economy and Oversupply
+decisions
+Recent Takshashila courses are seeing low enrollment, and the team is investigating whether macroeconomic conditions or internal scheduling issues are to blame.
+Published
+June 20, 2026
+TL;DR
+: Recent Takshashila courses are seeing low enrollment, and the team is investigating whether macroeconomic conditions or internal scheduling issues are to blame.
+Key Points
+Low uptake observed for West Asia (Raja), China Defence (Anushka), and Geospatial (Nithiya) courses.
+Hypothesis 1: Broader economic slowdown and hiring pauses are causing learners to deprioritize courses outside their immediate domain.
+Hypothesis 2: Takshashila may be offering too many courses simultaneously, or scheduling overlaps create thematic competition.
+AI and Critical Minerals courses bucked the trend, likely due to direct relevance to learners' work.
+A review will be conducted after three months to assess the situation.
+Decisions Made
+✅ Team will revisit course uptake data after three months.
+✅ Malathi will propose the way forward for Executive Certificate Courses (ECCs).
+Action Items
+Malathi to propose the way ahead for ECCs (timeline: review in ~3 months from June 2026).
+Context
+Takshashila offers a range of Executive Certificate Courses (ECCs) on topics spanning geopolitics, defence, technology, and energy. This conversation took place in a recurring internal sync ('Sesame') where course performance and programming decisions are discussed. The pattern of low enrollment across multiple courses prompted a broader conversation about external and internal factors affecting demand.
+Original Thread
+[2026-06-09 06:23 UTC] @pranaykotas: One thing from today's sesame:
+
+The uptake for all recent courses seems to be quite low. This includes the West Asia course by Raja, China Defence by Anushka, and Geospatial course by Nithiya. One hypothesis that came up was that this is a reflection of the broader economy. 
+
+With hiring pauses, people might be cutting on expenditure that is not related to their domain. We still had reasonably good numbers for the AI course (possibly because it's related to their work) and for the critical minerals course (from the energy transition crowd). 
+
+The other hypothesis was that there is oversupply of courses from our end or scheduling overlaps from a thematic angle. 
+
+We decided to take a look again after three months and @malathi will be proposing the way ahead for ECCs. 
+
+[2026-06-20 10:14 UTC] @pranaykotas: !kb
+
+[2026-06-20 10:14 UTC] @kb-bot: Processing this thread...
+From #sesame · 2 participants · What We Decided

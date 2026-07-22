@@ -1,0 +1,27 @@
+Takshashila commits to frontier technology use with integrity checks
+decisions
+Takshashila will publicly commit to using cutting-edge technology responsibly for public interest research with accountability mechanisms.
+Published
+June 2, 2026
+TL;DR
+: Takshashila will publicly commit to using cutting-edge technology responsibly for public interest research with accountability mechanisms.
+Key Points
+Takshashila will be frontier users of technology as a moral responsibility
+Technology adoption aims to produce social inputs for public interest most efficiently
+Integrity checks will be implemented to ensure quality
+Ombudsman mechanism established for public to report errors
+Decisions Made
+✅ Release a public statement on technology adoption principles
+✅ Implement integrity checks for technology-assisted work
+✅ Establish ombudsman mechanism for error reporting
+Action Items
+Pranaykotas to draft public statement on technology adoption principles
+Context
+This appears to be a policy decision about Takshashila's approach to adopting new technologies, likely AI and other emerging tools, for their research and public policy work. The decision emphasizes both the moral imperative to use efficient tools and the need for accountability mechanisms.
+Original Thread
+[2026-06-02 05:59 UTC] @pranaykotas: We will release a public statement - @pranaykotas to draft on these lines. We will be frontier users of any kind of technology because it is a moral responsibility for us to produce social inputs into public interest in the most efficient way. We commit integrity checks. If you find any errors then please report to ombudsman. 
+
+[2026-06-02 05:59 UTC] @pranaykotas: !kb
+
+[2026-06-02 05:59 UTC] @kb-bot: Processing this thread...
+From #sesame · 2 participants · What We Decided

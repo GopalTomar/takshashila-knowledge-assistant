@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-12-17">
+
+<title>A Survey of Military AI Technologies â Takshashila Institution</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4e246e24bbe2629196fc7e3dfe52c064.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon.png">
+
+
+<link rel="stylesheet" href="../../assets/css/takshashila-base-20260707.css">
+</head>
+
+<body class="floating nav-fixed slimcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="navbar-logo light-content">
+    <img src="../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/research-areas"> 
+<span class="menu-text">Our Research</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-policy-school" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Policy School</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-policy-school">    
+        <li>
+    <a class="dropdown-item" href="../../pages/policy-school/">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/policy-school/gcpp.html">
+ <span class="dropdown-text">12-week Graduate Certificate in Public Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/policy-school/pgp.html">
+ <span class="dropdown-text">48-week Post Graduate Programme in Public Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/policy-school/expert-capsule-courses.html">
+ <span class="dropdown-text">Expert Capsule Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/policy-school/opentakshashila.html">
+ <span class="dropdown-text">OpenTakshashila Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/team/">
+ <span class="dropdown-text">Faculty &amp; Staff</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-us" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About Us</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-us">    
+        <li>
+    <a class="dropdown-item" href="../../pages/team/">
+ <span class="dropdown-text">Team</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/mission.html">
+ <span class="dropdown-text">Mission</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/milestones.html">
+ <span class="dropdown-text">Milestones</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://pages.razorpay.com/pl_NPItghFeJGN6vP/view">
+ <span class="dropdown-text">Donate</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-engage-with-us" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Engage with Us</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-engage-with-us">    
+        <li>
+    <a class="dropdown-item" href="../../pages/newsletters/">
+ <span class="dropdown-text">Newsletters</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/publications/">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/blogs/">
+ <span class="dropdown-text">Blogs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/podcasts/">
+ <span class="dropdown-text">Podcasts</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/careers.html"> 
+<span class="menu-text">Careers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://pages.razorpay.com/pl_NPItghFeJGN6vP/view"> 
+<span class="menu-text">Donate</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/pay-it-forward.html"> 
+<span class="menu-text">Pay It Forward</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+        <h2 id="toc-title">On this page</h2>
+     
+    
+    <!-- Progress indicator container -->
+    <div class="toc-progress-container">
+      <div class="toc-progress-bar" id="toc-progress"></div>
+    </div>
+    
+    <ul class="collapse">
+    <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+    <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+    <li><a href="#what-is-military-ai-definitional-conundrums-and-concepts" id="toc-what-is-military-ai-definitional-conundrums-and-concepts" class="nav-link" data-scroll-target="#what-is-military-ai-definitional-conundrums-and-concepts">What is Military AI? Definitional Conundrums and Concepts</a></li>
+    <li><a href="#use-cases-of-military-ai" id="toc-use-cases-of-military-ai" class="nav-link" data-scroll-target="#use-cases-of-military-ai">Use Cases of Military AI</a></li>
+    <li><a href="#limitations-and-shortcomings" id="toc-limitations-and-shortcomings" class="nav-link" data-scroll-target="#limitations-and-shortcomings">Limitations and Shortcomings</a></li>
+    <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+    <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+    </ul>
+  </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block">
+    <div class="programme-page doc-hero">
+        <div class="gcpp-hero">
+            <div class="gcpp-hero__grid">
+                <div class="gcpp-hero__lead">
+                    <h1 class="gcpp-hero__h1">A Survey of Military AI Technologies</h1>
+                                                                            </div>
+                                <div class="gcpp-hero__aside">
+                    <div class="eyebrow">Document Details</div>
+                    <table class="caption-top table">
+                        <tbody>
+                                                        <tr>
+                                <td><strong>AUTHOR</strong></td>
+                                <td><a href="../../content/team/adya-madhavan.html">Adya Madhavan</a>, <a href="../../content/team/satya-sahu.html">Satya Sahu</a></td>
+                            </tr>
+                                                        <tr><td><strong>DATE</strong></td><td>December 17, 2024</td></tr>
+                            <tr><td><strong>DOCUMENT</strong></td><td>Takshashila Discussion Document 2024-25</td></tr>
+                            <tr><td><strong>VERSION</strong></td><td>Version 1.0, December 2024</td></tr>
+                                                        <tr>
+                                <td><strong>CATEGORIES</strong></td>
+                                <td class="gcpp-hero__aside-tags">
+                                                                        <a class="tk-tag" href="../../pages/publications/index.html#category=Artificial Intelligence">Artificial Intelligence</a>
+                                                                        <a class="tk-tag" href="../../pages/publications/index.html#category=Military Technology">Military Technology</a>
+                                                                        <a class="tk-tag" href="../../pages/publications/index.html#category=Defense Policy">Defense Policy</a>
+                                                                        <a class="tk-tag" href="../../pages/publications/index.html#category=Technology Strategy">Technology Strategy</a>
+                                                                    </td>
+                            </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+                            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const titleBlock = document.getElementById("title-block-header");
+        const contentBlock = document.getElementById("quarto-content");
+
+        const hasTitle = titleBlock && titleBlock.querySelector("h1");
+        if (titleBlock && !hasTitle) {
+            titleBlock.remove();
+            return;
+        }
+
+        // Strip " | Day N of Operation ..." suffix from bulletin titles
+        if (hasTitle) {
+            hasTitle.textContent = hasTitle.textContent.replace(/\s*\|\s*Day\s*\d+.*/i, '').trim();
+        }
+
+        if (titleBlock && contentBlock) {
+            contentBlock.parentNode.insertBefore(titleBlock, contentBlock);
+        }
+    });
+</script>
+
+
+  
+  <style>
+  </style>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the table of contents and progress bar
+    const toc = document.getElementById('TOC');
+    const progressBar = document.getElementById('toc-progress');
+    
+    if (!toc || !progressBar) return;
+    
+    // Track scroll position and update the active section and progress bar
+    updateTocOnScroll();
+    
+    function updateTocOnScroll() {
+      // Get all section headings with IDs
+      const headings = Array.from(document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]'));
+      if (headings.length === 0) return;
+      
+      // Get all links in the TOC
+      const links = Array.from(toc.querySelectorAll('a'));
+      
+      // Function to update active section based on scroll position
+      function updateActiveSection() {
+        // Calculate how far down the page has been scrolled
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        const scrollPercentage = scrollPosition / (documentHeight - windowHeight);
+        
+        // Update progress bar height
+        progressBar.style.height = Math.min(scrollPercentage * 100, 100) + '%';
+        
+        // Find the current section
+        let currentSection = null;
+        
+        for (let i = 0; i < headings.length; i++) {
+          const heading = headings[i];
+          const rect = heading.getBoundingClientRect();
+          
+          // Consider a heading in view if it's within 150px of the top
+          if (rect.top <= 150) {
+            currentSection = heading;
+          } else {
+            break;
+          }
+        }
+        
+        // Update active class on TOC links
+        if (currentSection) {
+          const id = currentSection.getAttribute('id');
+          
+          // Remove active class from all list items
+          toc.querySelectorAll('li').forEach(li => li.classList.remove('active'));
+          
+          // Add active class to corresponding list item
+          const activeLink = toc.querySelector(`a[href="#"]`);
+          if (activeLink) {
+            // Add active class to the parent list item
+            const activeLi = activeLink.closest('li');
+            if (activeLi) {
+              activeLi.classList.add('active');
+            }
+          }
+        }
+      }
+      
+      // Listen for scroll events
+      window.addEventListener('scroll', updateActiveSection);
+      
+      // Initialize on page load
+      updateActiveSection();
+    }
+  });
+  </script>
+
+<div class="no-row-height column-margin column-container"><div class="aside-btn margin-aside">
+<p><a href="20241217-survey-of-military-ai-technologies.pdf" class="primary-btn" target="_blank">Download Document</a></p>
+</div><div class="margin-aside">
+<p><strong>Authors:</strong> Adya Madhavan and Satya Sahu</p>
+<p><strong>Document Type:</strong> Takshashila Discussion Document 2024-25, Version 1.0</p>
+<p><strong>Citation:</strong> Adya Madhavan and Satya Sahu, âA Survey of Military AI Technologies,â Takshashila Discussion Document No.&nbsp;2024-25, December 2024, The Takshashila Institution.</p>
+</div></div>
+<section id="executive-summary" class="level2 page-columns page-full">
+<h2 data-anchor-id="executive-summary">Executive Summary</h2>
+<p>Artificial intelligence has been widely recognised for its transformative potential across sectors. In the case of defence, there are many concerns about autonomy, the risks that come with it, and the ethics involved. However, governments and militaries worldwide are increasing investments in military AI technologies to stay as technologically advanced as possible and capitalise on the benefits of AI. This document explores the motivations behind the military adoption of AI, through an examination of areas where it has been deployed and an analysis of the transformative potential of AI.</p>
+<p>There are three key takeaways from this primer:</p>
+<ul>
+<li><p><strong>AI in the military performs three broad functions:</strong> automation, prediction, and analytics. Each function is further characterised by the degree of human control, which determines how much or how little oversight there is.</p></li>
+<li><p><strong>AIâs utility for military purposes spans various areas</strong> - broadly divided into autonomous and semi-autonomous vehicles, target identification systems and Lethal Autonomous Weapons Systems (LAWS), decision support systems, battlefield healthcare, logistics and maintenance, and data analysis. These different applications have already been implemented globally to varying degrees of sophistication.</p></li>
+<li><p><strong>Although AI is widely touted as having the potential to transform economies</strong>, several technological and operational barriers stand in its way. Once these technological barriers have been addressed, which in itself may take a couple of years, these operational issues need to be addressed through a combination of changing pre-existing systems and strengthening processes. As of now, the transformational impact of AI is hindered by the way legacy military systems and processes operate, as well as the fact that modifications need to be made to the technology itself for effective utilisation by the military.</p></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p><strong>Document Formatting Note:</strong> This document has been formatted to be read conveniently on screens with landscape aspect ratios. Please print only if absolutely necessary.</p>
+<p><strong>Author Information:</strong> - Adya Madhavan is a Junior Research Analyst with the High-Tech Geopolitics Programme at the Takshashila Institution, Bengaluru, India. She can be reached at adya@takshashila.org.in - Satya Sahu was a Research Analyst with the High-Tech Geopolitics Programme at the Takshashila Institution, Bengaluru, India. He can be reached at https://www.linkedin.com/in/satyashoovasahu/</p>
+<p><strong>Acknowledgements:</strong> The authors would like to thank their colleague Aditya Ramanathan for his valuable contributions and feedback.</p>
+<p><strong>Disclosure:</strong> The authors have utilised ChatGPT and NotebookLM in the course of developing the glossary of terms.</p>
+</div></div></section>
+<section id="introduction" class="level2">
+<h2 data-anchor-id="introduction">Introduction</h2>
+<p>In recent years, AI has been widely touted for its transformative potential in every sector, ranging from education to defence. In 2022, Defence Minister Rajnath Singh unveiled over 75 AI technologies<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> conceived for military purposes for the Indian armed forces. From news outlets to academia, there has been a flurry of writing on concerns regarding AI and autonomous technologies. However, if AI is so risky, why are companies and governments ramping up investments centred around adapting AI for military purposes? This document seeks to explore why militaries seek to adopt AI capabilities. It also examines the potential of AI to transform existing military capabilities through an examination of current use cases.</p>
+<p>Although we have seen some of generative artificial intelligenceâs features at work with widely accessible LLMs like ChatGPT and Perplexity, many roadblocks still limit its applicability to other fields, including military applications. For instance, effective military planning is more than just target lists and requires subtle understanding of an adversaryâs intent as well as political contexts. Furthermore, military decision-making often has to be made amid the fog of war, with little reliable information at hand.</p>
+<p>Despite these limitations in the military field, AI has sometimes been likened to nuclear weapons<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. However, nuclear weapons are not a useful analogy for AI, which is a set of technologies that is diffused into other platforms or technologies. A more instructive framework is to use the idea of AI as a general-purpose technology (GPT)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. The GPT framework explains how certain technologies can drive widespread transformation, both in civilian life and military applications.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Jeffrey Ding, for instance, takes the example of steam, a technology that is derived from its capacity to provide energy to industrial processes and transportation, thus transforming both economies and militaries. While AI may be in a relatively nascent stage, and is yet to cascade into different fields and processes, it has similar potential to change both civil and war-like undertakings.</p>
+<p>Other analogies include comparing AI to a brain, since the structural inspiration for neural networks stems from the human brain. However, that simplifies AIâs capabilities and overstates its resemblance to human thought. In its current capacity, AI lacks consciousness, intuition, and emotional processing, which are integral to the human brain. The GPT analogy works better since it emphasises AIâs transformative power without attributing human qualities to it.</p>
+</section>
+<section id="what-is-military-ai-definitional-conundrums-and-concepts" class="level2 page-columns page-full">
+<h2 data-anchor-id="what-is-military-ai-definitional-conundrums-and-concepts">What is Military AI? Definitional Conundrums and Concepts</h2>
+<p>The history of modern AI development is perhaps inextricably linked with the militaryâs interest in the concept of âthinking machinesâ that could assist with complex military tasks. The US Air Force, for instance, funded the development of one of the first AI programs, the Logic Theorist, in 1956. By the 60s and the 70s, the US Defense Advanced Research Projects Agency (DARPA), along with the US military played central roles in sponsoring projects such as the Speech Understanding Research program<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> and other research that sought to codify human expertise into rules for decision making on and off the battlefield.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p><strong>Narrow AI:</strong> systems designed to perform specific tasks, such as image recognition or language translation. This type of AI is currently available and actively deployed in various military applications.</p>
+<p><strong>AGI:</strong> a hypothetical machine that exhibits intelligent behaviour across multiple domains, akin to human cognitive abilities. While the development of Artificial General Intelligence remains a long-term goal for researchers, it is not yet a reality and is not the dominant focus of current military AI efforts.</p>
+</div></div><p>The militaryâs focus on being an early adopter for AI systems that could âreasonâ and learn from large knowledge repositories,<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> has only become more prominent over the years. This is not merely due to an increasing need for the direct deployment of automated and autonomous systems (such as drones and robots) in warfare, but also for predictive maintenance, targeting and guidance, air defence, intelligence analysis, and cyber-defence.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>To understand why militaries across the globe are pursuing the development of different AI technologies, it is useful to understand what features set AI apart from human abilities and other associated technologies such as those involved in computing. This chapter defines AI and the bundle of technologies that the term encapsulates, and classifies it based on the broad roles it can perform in the military domain.</p>
+<p>This document does not weigh in on the debate surrounding the possibility of fielding Artificial General Intelligence,<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> (AGI) â AI systems with human-like intelligence, and transferable knowledge, capable of solving a wide range of problems across multiple domains. At the time of writing this, AGI is still a theoretical concept, and therefore, speculating about it is an endeavour best left to academic discussions.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Therefore, this paper confines the discussion to ânarrowâ AI systems. These refer to systems that are designed to perform specific tasks, and are limited by their inability to utilise training data and any taught and learned behaviour in new applications or domains without significant human intervention. All current and mature AI technologies fall into this category<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>.</p>
+<p>The USâ Defense Advanced Research Projects Agency (DARPA) utilises two categories to differentiate various AI systems:</p>
+<section id="handcrafted-knowledge-ai-systems" class="level3">
+<h3 data-anchor-id="handcrafted-knowledge-ai-systems">1. Handcrafted Knowledge AI Systems</h3>
+<p>An older approach to developing AI systems, these mainly comprise programmed rulesets that computing hardware use to process information.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> The rulesets are abstract representations of domain-specific knowledge and instructions provided in an âif-thenâ format. As long as such rules are provided to a computing system in the form of a program, the machine can apply these rules to a set of inputs and furnish an output. Given millions of such rules, such a system can appear to be very âintelligentâ and excel at a highly-specific task.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<p>Almost ubiquitous today, such systems across software solutions, infrastructure, services and logistics automation, video games etc, are also known as âExpert Systemsâ, since the logical rules and parameters provided to the AI system are identified in advance by human experts.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> A kind of Expert System that combines such rulesets with information gleaned from sensors and other instruments is termed a âFeedback Control Systemâ.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> In the military, these systems form the backbone of missile guidance and targeting technologies, autopilots, and digital signal processing systems.</p>
+<p>Since it is virtually impossible to program a system with sufficient rulesets to choose an appropriate course of action in all possible situations, such AI systems are also limited in their ability to adapt their knowledge and âexperienceâ to new problems. This inhibits the true automation of tasks.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<p>A prime example of an Expert System is IBMâs Deep Blue supercomputer,<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> that used its high-speed computing prowess to beat the then reigning world champion, Gary Kasparov at chess in 1997.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
+</section>
+<section id="statistical-or-machine-learning-ml-ai-systems" class="level3">
+<h3 data-anchor-id="statistical-or-machine-learning-ml-ai-systems">2. Statistical or Machine Learning (ML) AI Systems</h3>
+<p>Easily the most popular subdomain of AI, Machine Learning Systems differ from Handcrafted Knowledge Systems in that they are not explicitly programmed with rigid rulesets. After undergoing a âtraining periodâ where a human-developed algorithm is run on some sample data (training datasets), an ML system âlearnsâ to generate its own rulesets, which can process new information and return the correct output.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
+<p>The key advantage of ML systems is their ability to technically achieve true automation within a specific domain despite the limitations of human programming capabilities. This is because they effectively âprogram themselvesâ.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> This approach to AI leads to the creation of sets of rules from a specific dataset, which in turn can be applied later to input data that consists of other similar datasets. Expert Systems may not be able to accommodate a wide degree of variance in the input datasets due to their hard coded rules. The versatility and adaptability of ML systems is a huge benefit over the former. An example of an ML system that used to be primarily an Expert System is Facial Recognition.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p>
+<p>ML systems have also displayed the ability to incorporate into their programming certain aspects of human decision-making that can either be overlooked, are unanticipated, or difficult to abstract into a set of rules manually. This has resulted in ML-based AI systems exceeding human performance and Handcrafted Knowledge AI systems in areas such as real-time language translation, content generation, and image analysis etc.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> On the other hand, the ability of ML systems to program themselves to adapt to complex real-world environments and display unanticipated abilities is poorly understood,<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> and such âemergent behaviourâ can also undermine their predictability and reliability.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<p>That said, the ability of ML systems to âinterpretâ, âlearnâ and âreasonâ autonomously in a manner mimicking human intelligence makes them highly versatile and well-suited for deployment in the military context.</p>
+<p>These definitions also indicate that Expert Systems are no longer considered to be âtruly AIâ in common parlance,<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> as the tasks they perform are instead understood to be part and parcel of general modern computing systems, and not merely an imperfect machineâs translation of human intelligence and abilities. In fact, such systems do not merely mimic, but far exceed human capabilities in some areas (for example, in air defence).<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
+<p>ML systems are therefore considered the default AI technology approach today, as modern discussions of AI are centred around âthe capability of computer systems to perform tasks that normally require human intelligence.â<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> While ML systems are also limited in their ability to adapt to contexts that they are not trained for, advancements in dataset size and diversity, increased computational power, and algorithmic improvements continue to benefit their capacity for perception, reasoning, learning, and decision-making. However, with an increase in performance and a concomitant increase in complexity, ML systems also become less explainable and understandable on human scrutiny. Alongside the aforementioned concerns surrounding reliability, and predictability, the imperative to ensure explainable AI (XAI) systems has become a core concern for the military,<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> not merely due to the ethics of fielding such systems, but also the need to maintain their trustworthiness.<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> Future research documents will examine this research area.</p>
+<p>In both military and civilian contexts, therefore, the term âAIâ does not refer to a monolithic technology; it is an umbrella term encompassing new and mature technologies that usually interact with each other to produce the desired capabilities.<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a></p>
+</section>
+<section id="a-typology-for-military-ai" class="level3 page-columns page-full">
+<h3 data-anchor-id="a-typology-for-military-ai">A Typology for Military AI</h3>
+<p>Most of the time therefore, Military AI is used as a catch-all term to describe a broad suite of technologies and their applications. It is more useful to classify AI systems on the basis of their capabilities or the roles that they can fulfil in the military context.<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> Broadly, these roles can be considered to be analytical, predictive, or operational, and can be understood at both the strategic and tactical levels.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p><strong>Strategic:</strong> The overarching, long-term planning and execution of military objectives that align with national goals and policies. It focuses on achieving broader outcomes, such as securing peace, deterring adversaries, or winning wars.</p>
+<p><strong>Tactical:</strong> The immediate, short-term planning and execution of actions on the battlefield to achieve specific objectives. It involves deploying forces, manoeuvring units, and engaging adversaries in direct combat.</p>
+</div></div><p>In an <strong>analytical</strong> role, AI can identify patterns, trends, and anomalies by processing vast amounts of unstructured data that may be difficult or time-consuming for humans to discern. AI algorithms excel at discerning subtle correlations and trends within complex information streams, such as high-resolution satellite imagery and real-time drone feeds. Automating the accurate interpretation of disparate data sources has been a moving target for military AI research since its early days, particularly since it has proven to be invaluable for timely situational and battlefield awareness.</p>
+<p>At the strategic level, military planners and leadership gain more comprehensive views of the battlefield, granular threat assessment, and improved adaptability in their operations as AI-enabled intelligence analysis improves.</p>
+<p>At the tactical level, rapid processing of real-time battlefield data from multiple sources is invaluable to military units and individual operators for maintaining enhanced situational awareness and better decision-making. AI systems onboard military aircrafts are a good example of this, analysing sensor data and satellite imagery to constantly provide pilots with immediate, actionable intelligence for adapting to changes in battlefield conditions.</p>
+<p>In <strong>predictive</strong> roles, AI systems utilise historical and real-time input data to generate simulations for predicting potential outcomes in a range of military scenarios, both on and off the battlefield. Besides better-informed decision-making, forecasts like these can be transformative for a wide variety of activities, such as identifying latent vulnerabilities in critical military infrastructure or operations, simulating hyper-realistic scenarios for personnel training (often in conjunction with downstream technology stacks such as Virtual Reality), modelling complex adversary behaviour, and forecasting logistical requirements for military operations etc.<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p>
+<p>At the strategic level, predictive analytics have obvious benefits for long-term planning as historical data, geopolitical trends, and updated information about adversary capabilities can be synthesised to forecast potential conflict scenarios. Military planners can leverage these to identify optimal deterrence strategies, force deployment and quicker and more effective resource allocation.</p>
+<p>At the tactical level, a wide multitude of sensory data, intelligence updates, weather patterns etc can be used by AI to simulate the likelihood and location of threats and opportunities in the field. Being able to take proactive measures to avoid and counter threats (like potential ambush sites) are invaluable for units and vehicles. Similarly, AI-powered predictive maintenance can analyse sensor data from equipment and vehicles to anticipate failures and optimise maintenance schedules, reducing downtime and ensuring operational readiness in the field.<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a></p>
+<p>In an <strong>operational</strong> role, AI systems are deployed directly to execute tasks or missions, either autonomously or in collaboration with human operators. This can take many forms, depending on the specific application and the level of autonomy granted to the AI system. Uncrewed Aerial Vehicles (UCAVs) are a prominent example of the use of AI in military operations, where they are used to control various aspects of navigation, target identification, and weapons deployment.<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> In cyber-warfare, AI-powered defences are effectively the only way to detect and respond to threats in real-time.</p>
+<p>Such systems can automate and take over repetitive, time-consuming, or complex tasks, freeing up human operators to focus on more critical aspects of their roles. In operational roles, AI can also reduce risk to humans. For instance, AI-enabled robotic systems can conduct tasks such as bomb disposal,<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> or ISR operations in hazardous and hostile environments at length.</p>
+<p>To be sure, remotely operated drones have been deployed for many years, with some automated operations. However, this automation was primarily predicated on âdeterministicâ Handcrafted Knowledge AI systems and still requires human operators. Beyond reducing the factor of human error affecting the outcomes, AI that leverages ML algorithms and vast amounts of data also has the potential to be more efficient and accurate at these tasks.<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a></p>
+</section>
+<section id="autonomy-vs-automation" class="level3">
+<h3 data-anchor-id="autonomy-vs-automation">Autonomy vs Automation</h3>
+<p>A central thread that emerges from the discussion on AI systems is that such systems are being leveraged by human operators to delegate specific tasks. The act of delegation implies that the operator gives up a degree of control over how the task may be done and the AI system gains a degree of autonomy vis a vis the same.<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a> When a system is programmed with hard-coded constraints and rules for a particular task, it is considered to be an âautomatedâ system, with a low degree of autonomous control in the manner in which it can perform the task. Conversely, when a system can perform the task without any constraints imposed upon it by the operator delegating the task, it can be considered to be an âautonomousâ system. All instances of ânarrow AIâ systems exist between these two extremes.</p>
+<p>We can further classify military AI systems by the degree of human involvement, control and oversight.<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> This is useful for ensuring the proper functioning of chain-of-command, and accountability mechanisms for different configurations of systems involving human control and AI autonomy.</p>
+<ol type="1">
+<li><p><strong>Human-in-the-Loop (HITL) / Semi Autonomous:</strong> These refer to systems where there is the most human oversight. While AI may provide suggestions and recommendations, all final decision-making is executed by human beings.</p></li>
+<li><p><strong>Human-on-the-Loop (HOTL) / Supervised autonomous:</strong> HOTL systems operate more autonomously than HITL systems. Actions are performed by AI but under human supervision. Human supervisors can intervene if need be, but are not typically involved in real-time decision making.</p></li>
+<li><p><strong>Human-out-of-the-Loop (HOOTL) / Fully Autonomous:</strong> These are fully autonomous systems that operate with no human intervention. HOOTL systems make independent decisions without any oversight based on real-time data, following previously set criteria.<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a></p></li>
+</ol>
+<p>As the scope of this paper is limited to being a primer on military AI technologies, we will not examine the complexity of these configurations,<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> nor their legal and moral implications. However, these merit further study in AI policy research. It is clear that the convergence of various AI technologies is transforming the nature of warfare. With these conceptual foundations in mind, the following chapter explores how such capabilities are being deployed and utilised by militaries around the world.</p>
+</section>
+</section>
+<section id="use-cases-of-military-ai" class="level2">
+<h2 data-anchor-id="use-cases-of-military-ai">Use Cases of Military AI</h2>
+<p>AI systems are being deployed across a wide range of military functions, ranging from logistics to combat. With the most recent AI wave over the last couple of years especially, every country seems to be scrambling to harness AI to gain a technological edge over competitors and optimise processes. The following section provides a snapshot of the various ways in which different countries are innovating and using AI in their militaries. It looks at countries that are major AI users on different fronts and highlights certain use cases of different kinds of applications of AI.</p>
+<section id="autonomous-and-semi-autonomous-vehicles" class="level3">
+<h3 data-anchor-id="autonomous-and-semi-autonomous-vehicles">1. Autonomous and Semi-Autonomous Vehicles</h3>
+<p>Drones and drone swarms are among the most common uses of AI in todayâs military landscape. Countries across the board are rapidly developing AI-augmented UAVs. Currently, drones are vulnerable to signal jamming, since they are remotely operated and require continued network connectivity to be operable. Fully autonomous drones are impervious to jamming since they are guided by artificial intelligence and do not require connections with a pilot. They can also function in large swarms. Human actors often struggle to coordinate operations using multiple drones, but AI has the potential to deploy hundreds of drones while maintaining situational awareness effectively.</p>
+<p>Ukraine is currently deeply involved in developing drones for military use. Most recently, there have been reports that Ukraine is in the process of developing autonomous drone swarms that can identify and attack targets in coordination with each other. Ukraine is already using AI-equipped drones for terrain mapping and detecting land mines, in addition to using drones during combat. For combat purposes, Unmanned Autonomous Vehicles (UAVs) such as the Saker Scout have been approved for battle usage<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a>.</p>
+<p>The US, too, has been ramping up R&amp;D surrounding UAVs. In July 2023, the US tested and demonstrated vehicles like the uncrewed AI-enabled XQ-58 drone. Additionally, the US has tested and utilised drones such as âGlobal Hawkâ and âReaperâ for intelligence-gathering purposes<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a>. The US Air Force also flew an AI-controlled F-16 fighter jet, accompanied by two other F-16s with pilots<a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a>. An AI-piloted fighter jet also participated in a simulation dogfight with an experienced US Air Force pilot. Despite the pilotâs level of experience, the plane flown by the pilot and the AI-operated vehicle were reportedly fairly evenly matched.</p>
+<p>The US Navy has also developed Unmanned Undersea Vehicles (UUVs) and Unmanned Surface Vehicles (USVs)<a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a>. UUVs are being explored to perform tasks that are too dangerous for humans, such as mine countermeasures, ISR, and gathering intelligence in areas that are inaccessible to manned vehicles. The USVs that the US Navy is developing can be fitted with various weapons and sensors and adapted for high-risk missions. They also bring the potential for cooperative missions where a fleet of USVs can coordinate and be deployed together.</p>
+<p>Additionally, the US, the UK, and Australia have tested AI-powered AUKUS uncrewed aerial vehicles<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a>. The British Army is developing systems like the MUTT (Multi-Utility Tactical Transport)<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a>, an unmanned ground vehicle (UGV) designed to serve as a force multiplier in combat.</p>
+<p>China, too, has developed fleets of UAVs equipped with AI. Its Wing Loong drones are reportedly going to be equipped with AI. China also has AI-powered drones capable of autonomously navigating forests without relying on satellite navigation systems. While there is limited available data on similar technologies for military use, the same technology can likely be adapted for UAVs for military purposes as well.</p>
+</section>
+<section id="target-identification-systems-and-lethal-autonomous-weapons-systems" class="level3">
+<h3 data-anchor-id="target-identification-systems-and-lethal-autonomous-weapons-systems">2. Target Identification Systems and Lethal Autonomous Weapons Systems</h3>
+<p>The idea of a machine that identifies and zeroes in on targets seemed straight out of science fiction until very recently. However, today, such systems are a reality and among AIâs most controversial applications. AI target identification systems have been deployed in the early stages of the Israel-Hamas war in the past year. Israel developed two systems, âLavenderâ<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a> and âWhereâs Daddyâ.<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a> Lavender was programmed to identify suspected Hamas operatives, who would then be vetted as potential targets of bombings. However, reports revealed that approval for these bombings was given without much discretion. Whereâs Daddy was used to track identified targets, monitor their whereabouts, and attack them once they were in their homes. A third program called Gospel operated similarly to Lavender. The only marked difference between the two was that Gospel identified structures for bombing while Lavender identified human targets.</p>
+<p>The US also has an AI-driven system that operates similarly. The Advanced Targeting and Lethality Automated System, or ATLAS, was mounted on an M1 Abrams tank and tested for a variety of functions in 2022<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a>. According to reports, target identification and tracking abilities were tested in a realistic exercise environment. The US XVIII Airborne Corps also utilised AI to help Ukraine identify Russian targets in 2022<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a>.</p>
+<p>During the Libyan Conflict in 2020, Turkey deployed a drone called Kargu 2, which was developed by the Turkish company STM. This is the first known deployment of a lethal autonomous weapons system in battle. Kargu 2 was used to identify and then track and attack targets<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a>.</p>
+<p>There have also been reports that the Indian army has utilised over 140 AI systems across its borders with China and Pakistan to identify and classify targets<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a>.</p>
+</section>
+<section id="decision-support-systems" class="level3">
+<h3 data-anchor-id="decision-support-systems">3. Decision Support Systems</h3>
+<p>Using AI to identify targets is merely one form of decision support that the technology can provide. Due to its ability to process large amounts of data rapidly, AI can also lend itself to decision-making processes at the strategic level. Training AI programs on large amounts of data to understand strategy also enables them to make better strategic decisions rapidly.</p>
+<p>For instance, China has recently developed an âAI commanderâ<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a> that is currently used to participate in simulations and war games while playing the role of commander. While it is currently constrained by a cap on its memory, the AI commander can theoretically play the role of a decision-maker in actual conflict, not just simulations. It can provide rapid data-driven decisions that allow battle strategy to be crafted rapidly while responding to real-time situations. While China maintains that this is only for training purposes, and âthe party commands the gunââ or the computer in this caseâ in the future, it may be used to make strategic decisions in actual conflict situations.</p>
+<p>Earlier this year, Turkey developed a decision support system that won a United Nations award<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a>. The system utilises real-time meteorological data to respond to forest fires as effectively as possible. The system also allows for the appropriate evacuation and intervention strategies to be made based on its evaluations of changing data. This is yet another instance of technology made for a certain function that can be adopted for wider use in different spheres.</p>
+</section>
+<section id="battlefield-healthcare" class="level3">
+<h3 data-anchor-id="battlefield-healthcare">4. Battlefield Healthcare</h3>
+<p>Another area where AIâs foray has the potential to be transformative is battlefield healthcare. Automated medical care, triage, and diagnostics based on AI enable armed forces to perform medical care efficiently in environments that may be too risky for human medical personnel.</p>
+<p>Israel has developed a platform called Aidoc<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a>, which rapidly evaluates pathology reports and sends alerts. Doctors get immediate alerts on patients with critical conditions and can attend to them with a sense of urgency. In war conditions, this enables limited medical personnel to prioritise the needs of the most critical patients. Additionally, Israel has also developed robotic machinery that can perform functions such as removing bullets. While these technologies may not have been developed exclusively for military usage, they lend themselves well to circumstances where time is of the essence and efficiency is paramount.</p>
+<p>The US has also developed an AI-powered triage system that has been cleared by the FDA<a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a>. The Automated Processing of the Physiological Registry for Assessment of Injury Severity Hemorrhage Risk Index, or APPRAISE-HRI<a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a>, is an app developed by the Department of Defense that uses an AI algorithm trained on vital sign data. It enables people to evaluate how at risk they are to experiencing blood loss at a life-threatening scale.</p>
+<p>AI is already being commercially implemented in various aspects of healthcare, suggesting that its use for battlefield medicine isnât far off. From diagnostics and lab report analysis to drug discovery, AI is being used to augment many functions and make processes more efficient. In addition to simple procedures, AI can perform complex diagnostics such as evaluating the aggressiveness of cancers<a href="#fn57" class="footnote-ref" id="fnref57" role="doc-noteref"><sup>57</sup></a>. While there is limited publicly available information on AI tools developed specifically for military purposes, many of these medical developments can also be easily applicable to military medicine.</p>
+</section>
+<section id="logistics-and-maintenance" class="level3">
+<h3 data-anchor-id="logistics-and-maintenance">5. Logistics and Maintenance</h3>
+<p>Aside from combat, and strategy, there are less glamorous aspects of the military that operate behind the scenes, such as supply chain logistics, transport, and maintenance, which are imperative to ensure the smooth functioning of any institution. AI systems are being used to make these tasks more efficient across civilian and military domains.</p>
+<p>For instance, the US uses an Autonomic Logistics Information System (ALIS) for predictive maintenance of naval and airforce vehicles. In the case of the F-35 fighter jet<a href="#fn58" class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a>, ALIS is used to analyse data pertaining to performance, maintenance logs as well as operational usage in order to optimise the maintenance needs of the aircraft. Similarly, the Japan Ground Defense Force<a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a> is exploring the application of AI to predict equipment failures, streamline supply chains, and optimise the maintenance of military resources. Additionally, British Airways has predictive aircraft health monitoring systems in place<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a> that help assess conditions from data on different aircraft conditions. While there is limited public data on the system, it could also be applicable to the Royal Air Force.</p>
+<p>The UK has also tested UGV convoys along with the US Army<a href="#fn61" class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a>. Delivering supplies to frontlines in dangerous circumstances claims many lives, and these unmanned convoys have been designed to serve this purpose. The experiment where this technology was tested featured the vehicles operating autonomously and semi-autonomously. If deployed, this would allow for many of the risks of battlefield logistics to be mitigated, with exponentially fewer human beings at risk when delivering supplies.</p>
+</section>
+<section id="data-analysis" class="level3">
+<h3 data-anchor-id="data-analysis">6. Data Analysis</h3>
+<p>Another area where AI surpasses human capabilities is data analysis, as its capacity to process and recollect data and perform calculations using it far exceeds that of a human mind. For the military, this can mean using AI to process large amounts of data and have it provide insights that can help them make informed choices. Depending on the kind of insights desired, this can be done using different types of datasets.</p>
+<p>The UK, US, and Australia are set to test a new technology that uses AI to process large volumes of sonar data as part of their technology sharing agreement, Aukus Pillar II<a href="#fn62" class="footnote-ref" id="fnref62" role="doc-noteref"><sup>62</sup></a>. Analysing SONAR data will help determine the position of Chinese submarines faster and more accurately than existing technologies do.</p>
+<p>The US Air Force utilises AI to analyse cyber data. This allows it to comb through large amounts of data and identify potential security threats in its networks without expending large amounts of manpower. This capitalises on AIâs ability to process huge amounts of data in real-time at a scale that human actors are unable to.</p>
+<p>Ukraine, on the other hand, uses AI to process large amounts of satellite data, which allows it to have better intelligence on the location of Russian targets. Processing geospatial data more efficiently and accurately than humans can, AI systems have allowed Ukraine to utilise the extensive amount of data available and harness it to meet its needs.</p>
+</section>
+<section id="learning-from-civilian-use-cases" class="level3">
+<h3 data-anchor-id="learning-from-civilian-use-cases">7. Learning from Civilian Use Cases</h3>
+<p>Considering that most militaries do not publicly disclose the details of their most recent technological developments, looking at civilian applications of AI can help understand the extent to which the technology has been developed and may be repurposed for military users.</p>
+<p>Amazon<a href="#fn63" class="footnote-ref" id="fnref63" role="doc-noteref"><sup>63</sup></a> uses AI to manage its extensive supply chain. By analysing various points of dataâ including but not limited to customer preferences, demand and historical data â AI systems can manage inventory per the needs of the market, and optimise both delivery routes and warehouse operations. The same technologies could be applied to military supply chains to manage the distribution of fuel, weapons and rations to troops in dangerous or contested areas. In addition, predictive analysis could be used to forecast supply shortages. Uber uses AI to optimise routes and implement dynamic prices. This technology could be adapted for military logistics requirements as well, to optimise the transport routes for convoys based on real-time battlefield data.</p>
+<p>Teslaâs widely acclaimed autopilot system<a href="#fn64" class="footnote-ref" id="fnref64" role="doc-noteref"><sup>64</sup></a> is fitted in its cars and manages navigation, route optimisation, and object detection. The system utilises real-time data from the carâs sensors and machine learning to enable cars to drive autonomously. Self-driving cars navigate traffic conditions and directions. The same technology can be used for military logistics and unmanned vehicles of various kinds.</p>
+<p>Microsoftâs use of AI helps balance supply and demand in energy grids<a href="#fn65" class="footnote-ref" id="fnref65" role="doc-noteref"><sup>65</sup></a>. This predictive analysis helps prevent blackouts by examining and predicting consumption patterns. The same principle could be used to manage energy usage in military-bases and forward-operating bases. In remote combat zones where off-grid energy is used, it could help prevent energy shortages.</p>
+<p>Boston Dynamicsâ Spot is an AI-powered autonomous quadruped robot<a href="#fn66" class="footnote-ref" id="fnref66" role="doc-noteref"><sup>66</sup></a>. Spot is designed to make real-time data-driven decisions, and its size and agility make it capable of navigating a variety of conditions. The firm advertises it as capable of providing âvaluable insights into routine operations, site health, or potentially hazardous situationsâ. A technology like Spot can be adapted for purposes such as military reconnaissance or to defusing explosivesâ capitalising on its size, agility and ability to perform fairly complex tasks.</p>
+</section>
+</section>
+<section id="limitations-and-shortcomings" class="level2 page-columns page-full">
+<h2 data-anchor-id="limitations-and-shortcomings">Limitations and Shortcomings</h2>
+<p>While the use of AI into the military and defence has begun, there are several limitations that can potentially constrain its degree of penetration. There are hurdles at almost every level that need to be addressed. While many of these challenges may be primarily technological, they are also compounded by operational issues as well as a host of legal and regulatory challenges.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p><strong>Example Scenario:</strong> For example, in a hypothetical scenario where input data was compromised through a cyberattack in which attackers injected false information into a traffic sensor data, the network would indicate heavy congestion in areas based on false data. This would lead the system to disrupt decision making and reroute vehicles arbitrarily which would lead to actual traffic jams based on falsified data. Attackers could use ransomware to lock predictive algorithms in these traffic sensors and force authorities to pay ransom to restore the network.</p>
+<p>While this example highlights a relatively benign situation in which the outcome isnât catastrophic, in the context of an algorithm being used for military purposes, the attack could result in a loss of lives or damage to infrastructure based on falsified data.</p>
+</div></div><p>Some of the largest technological problems faced are as follows:</p>
+<section id="data-dependency" class="level3">
+<h3 data-anchor-id="data-dependency">1. Data Dependency</h3>
+<p>In order for AI models to be effective and make informed decisions, they need to be trained on extensive data sets. Military applications such as image recognition and predictive analysis especially require massive amounts of data that is representative of diverse conditions. This can include aspects such as varied terrains, weather conditions and combat situations. Comprehensive data, especially for specific use cases is hard to come by, which limits AI modelsâ abilities to generalise across situations. There is also a data scarcity for several high-stake events, such as large-scale cyberattacks, owing to the lack of historical precedence. In such situations, it is even more challenging to train AI systems.</p>
+<p>Even in situations where data is available, it tends to be highly classified. The sharing of datasets such as intelligence reports or battlefield logs can raise security concerns. This is a major limiting factor in terms of collaborative AI development.</p>
+</section>
+<section id="the-issue-of-context" class="level3">
+<h3 data-anchor-id="the-issue-of-context">2. The Issue of Context</h3>
+<p>Currently, AI systems excel at specific tasks, such as solving complex calculations with large numbers. However, they are unable to adapt to situations that fall beyond the ambit of their training data. Narrow AI fails at being able to interpret and adapt to real-time changes autonomously, such as weather changes or equipment failures. This means that some dynamic battle conditions are too unpredictable for AI models to be able to have an adaptable understanding of the context. Unlike human decision-makers, AI lacks any intuitive decision-making ability and relies solely on data it is trained on to understand any causality.</p>
+</section>
+<section id="computational-limitations" class="level3">
+<h3 data-anchor-id="computational-limitations">3. Computational Limitations</h3>
+<p>The issue of the availability of computational resources arises whenever AI systems are deployed. Most applications of AI require immense computational resources that are hard to make available in environments such as forward operating bases or mobile platforms. If AI were to be deployed even in such resource-constrained environments, it would lead to a degree of latency in decision-making, processing and responding, which can be a critical issue in operations that are time-sensitive. High-performance AI systems are also highly energy intensive, which raises another resource-related concern since many conflict zones may be off the grid or remote.</p>
+<p>In addition to these technological bridges that must be crossed, there are certain operational challenges that also need to be addressed when deploying AI:</p>
+</section>
+<section id="integration-of-systems" class="level3">
+<h3 data-anchor-id="integration-of-systems">1. Integration of Systems</h3>
+<p>By and large, military infrastructure tends to be a combination of legacy systems and more recent technologies. To successfully integrate new technologies, such as AI, with older technologies, such as analogue communication networks, new interfaces need to be created, or old systems need to be overhauled completely. This process is both expensive and time-consuming. There is also the issue of compatibility with older physical infrastructure. For example, predictive maintenance tools may not be easy to implement with older aircraft or tanks without sensors.</p>
+<p>Military organisations also tend to have data silos with separate systems between divisions, such as the army, navy and air force. This further highlights the issues with integration, because in addition to legacy systems, newer systems are also not uniform and centralised.</p>
+</section>
+<section id="interoperability" class="level3">
+<h3 data-anchor-id="interoperability">2. Interoperability</h3>
+<p>Even within the AI realm, different nations and military branches often use different AI platforms built with differing data standards and programming languages. In larger coalitions such as NATO, the lack of standardisation can also potentially further hinder interoperability. Additionally, proprietary systems from commercial vendors can also limit interoperability since they are unlikely to be compatible with systems developed by other competitive vendors.</p>
+</section>
+<section id="supply-chain-dependencies" class="level3">
+<h3 data-anchor-id="supply-chain-dependencies">3. Supply Chain Dependencies</h3>
+<p>Emerging technologies, such as AI, often require components, such as microchips, that tend to have complex global supply chains. Therefore, there exists the potential for geopolitical tensions to disrupt supplies, hindering access to critical hardware. These cutting-edge components are also often manufactured in limited quantities, another factor that can impact production globally.</p>
+<p>Global supply chains also come with security risks since vulnerabilities in the supply chain can have a direct repercussion on the military. As was evident with the pager attacks in Lebanon<a href="#fn67" class="footnote-ref" id="fnref67" role="doc-noteref"><sup>67</sup></a> on the 17th and 18th of September 2024, adversarial access to the supply chain can pose a significant threat in addition to compromising system integrity.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 data-anchor-id="conclusion">Conclusion</h2>
+<p>In the coming years, militaries will need to address the challenges discussed above to effectively use artificial intelligence. For India, this is likely to mean a rapid increase in the adoption of AI technologies across military areas. Since China is aggressively pursuing the adoption of AI, the Indian armed forces will inevitably be pushed into employing AI. Currently, little is known as to the details of both the capabilities and the limitations of military AI. This will be the urgent first step to making better assessments of Chinese capacities and deploying AI more effectively in India. Once this information gap has been filled, India will need to seek out trusted partners to help it develop and acquire military AI within reasonable timeframes to ensure that it does not fall behind. In the coming years, the strategic, operational and tactical effects of military AI for India will need to be studied carefully for India to best achieve its ambitions.</p>
+<hr>
+</section>
+<section id="references" class="level2">
+<h2 data-anchor-id="references">References</h2>
+
+
+<nav class="post-navigation" aria-label="Post navigation">
+  <div class="nav-links">
+    <a href="../../content/publications/20241217-pulse-of-the-people.html" class="nav-prev" rel="prev">
+      <span class="nav-label">â Previous</span>
+      <span class="nav-title">Pulse of the People: State of India-China Relations</span>
+    </a>
+    <a href="../../pages/publications/" class="nav-listing">
+      <span class="nav-listing-icon">â°</span>
+      <span class="nav-listing-text">All Publications</span>
+    </a>
+    <a href="../../content/publications/20241217-assessing-nature-of-indias-critical-minerals.html" class="nav-next" rel="next">
+      <span class="nav-label">Next â</span>
+      <span class="nav-title">Assessing the Nature of India's Critical Minerals Vulnerabilities vis-Ã -vis China</span>
+    </a>
+  </div>
+</nav>
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Pib.gov.in. âRaksha Mantri Launches 75 Artificial Intelligence Products/Technologies during First-Ever âAI in Defenceâ Symposium &amp; Exhibition in New Delhi; Terms AI as a Revolutionary Step in the Development of Humanity,â 2022.<a href="#fnref1" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn2"><p>Matthews, Dylan. âAI Is Supposedly the New Nuclear Weapons â but How Similar Are They, Really?â Vox, June 29, 2023.<a href="#fnref2" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn3"><p>Dafoe, Alan, and Jeffrey Ding. âEngines of Power: Electricity, AI, and General-Purpose Military Transformations | GovAI.â Governance.ai, 2021.<a href="#fnref3" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn4"><p>Turn, R, A Hoffman, and T Lippiatt. âMilitary Applications of Speech Understanding Systems.â RAND, June 1974.<a href="#fnref4" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn5"><p>Turn, R, A Hoffman, and T Lippiatt. âMilitary Applications of Speech Understanding Systems.â RAND, June 1974.<a href="#fnref5" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn6"><p>Cohen, Paul R, Robert Schrag, Eric K Jones, Adam Pease, A.D Lin, Barbara Starr, Dave Gunning, and Murray Burke. âThe DARPA High-Performance Knowledge Bases Project.â Ai Magazine 19, no. 4 (December 15, 1998): 25â49.<a href="#fnref6" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn7"><p>Gentile, Gian P, Michael Robert Shurkin, Alexandra T Evans, GrisÃ©Michelle, Mark Hvizda, Rebecca Jensen, International Security And Defense Policy Center, and Rand Corporation. A History of the Third Offset, 2014-2018. Santa Monica, Calif.: Rand Corporation, 2021.<a href="#fnref7" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn8"><p>Goertzel, Ben. âArtificial General Intelligence: Concept, State of the Art, and Future Prospects.â Journal of Artificial General Intelligence 5, no. 1 (December 1, 2014): 1â48.<a href="#fnref8" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn9"><p>Gentile, Gian P, Michael Robert Shurkin, Alexandra T Evans, GrisÃ©Michelle, Mark Hvizda, Rebecca Jensen, International Security And Defense Policy Center, and Rand Corporation. A History of the Third Offset, 2014-2018. Santa Monica, Calif.: Rand Corporation, 2021.<a href="#fnref9" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn10"><p>Harris A., Laurie. âArtificial Intelligence: Overview, Recent Advances, and Considerations for the 118th Congress.â CRS Reports (.gov), August 4, 2023.<a href="#fnref10" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn11"><p>Prabhakar, Arati. âPowerful but Limited: A DARPA Perspective on AI Arati Prabhakar,â n.d.<a href="#fnref11" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn12"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref12" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn13"><p>âThe Three AI Waves That Will Shape the Future,â Curating the Future, February 28, 2017.<a href="#fnref13" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn14"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref14" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn15"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref15" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn16"><p>IBM. âDeep Blue | IBM.â www.ibm.com, 2024.<a href="#fnref16" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn17"><p>Curating the Future. âThe Three AI Waves That Will Shape the Future,â February 28, 2017.<a href="#fnref17" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn18"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref18" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn19"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref19" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn20"><p>Lydick, Neil. âA Brief Overview of Facial Recognition,â n.d.<a href="#fnref20" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn21"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref21" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn22"><p>Schaeffer, Rylan, Brando Miranda, and Sanmi Koyejo. âAre Emergent Abilities of Large Language Models a Mirage?â ArXiv:2304.15004 [Cs], April 28, 2023.<a href="#fnref22" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn23"><p>Trusilo, Daniel. âAutonomous AI Systems in Conflict: Emergent Behavior and Its Impact on Predictability and Reliability.â Journal of Military Ethics 22, no. 1 (January 2, 2023): 2â17.<a href="#fnref23" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn24"><p>Morgan, Forrest, Benjamin Boudreaux, Andrew Lohn, Mark Ashby, Christian Curriden, Kelly Klima, and Derek Grossman. âMilitary Applications of Artificial Intelligence Ethical Concerns in an Uncertain World,â 2020.<a href="#fnref24" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn25"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref25" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn26"><p>Morgan, Forrest, Benjamin Boudreaux, Andrew Lohn, Mark Ashby, Christian Curriden, Kelly Klima, and Derek Grossman. âMilitary Applications of Artificial Intelligence Ethical Concerns in an Uncertain World,â 2020.<a href="#fnref26" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn27"><p>Holland Michel, Arthur. âThe Black Box, Unlocked: Predictability and Understandability in Military AI.â UNIDIR, September 22, 2020.<a href="#fnref27" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn28"><p>Nathan Gabriel Wood. âExplainable AI in the Military Domain.â Ethics and Information Technology 26, no. 2 (April 16, 2024).<a href="#fnref28" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn29"><p>Corn, Gary. âSymposium on Military AI and the Law of Armed Conflict: De-Anthropomorphizing Artificial Intelligence â Grounding Notions of Accountability in Reality.â Opinio Juris, April 5, 2024.<a href="#fnref29" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn30"><p>Allen, Greg. âUnderstanding AI Technology.â apps.dtic.mil. JAIC, April 1, 2020.<a href="#fnref30" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn31"><p>Madhavan, Adya. â#92 the Beginning of Chinaâs AI Command?â Substack.com. Technopolitik, July 7, 2024.<a href="#fnref31" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn32"><p>Deloitte. âUsing AI in Predictive Maintenance.â Deloitte United States, 2023.<a href="#fnref32" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn33"><p>Macdonald, Norine, and George Howell. âKilling Me Softly Competition in Artificial Intelligence and Unmanned Aerial Vehicles,â n.d.<a href="#fnref33" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn34"><p>Evans, Scarlett. âAI-Powered Robot Dogs Tested to Find Explosive Devices.â Urgentcomm.com, November 27, 2023.<a href="#fnref34" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn35"><p>Lin-Greenberg, Erik. âWrestling with Killer Robots: The Benefits and Challenges of Artificial Intelligence for National Security.â MIT Case Studies in Social and Ethical Responsibilities of Computing, August 10, 2021.<a href="#fnref35" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn36"><p>Morgan, Forrest E., Benjamin Boudreaux, Andrew J. Lohn, Mark Ashby, Christian Curriden, Kelly Klima, and Derek Grossman. âMilitary Applications of Artificial Intelligence: Ethical Concerns in an Uncertain World.â RAND Corporation, April 28, 2020.<a href="#fnref36" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn37"><p>Boulanin, Vincent, Lora Saalman, Fei Su, Petr Topychkanov, and Moa Peldan Carlsson. âArtificial Intelligence, Strategic Stability and Nuclear Risk.â SIPRI, June 1, 2020.<a href="#fnref37" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn38"><p>Morgan, Forrest, Benjamin Boudreaux, Andrew Lohn, Mark Ashby, Christian Curriden, Kelly Klima, and Derek Grossman. âMilitary Applications of Artificial Intelligence Ethical Concerns in an Uncertain World,â 2020.<a href="#fnref38" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn39"><p>Cowen, Michael B., and Rick Williams. âIs Human-On-The-Loop the Best Answer for Rapid Relevant Responses? - Joint Air Power Competence Centre.â japcc, May 13, 2021.<a href="#fnref39" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn40"><p>The Economist. âHow Ukraine Uses Cheap AI-Guided Drones to Deadly Effect against Russia.â The Economist, December 2, 2024.<a href="#fnref40" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn41"><p>DiNardo, Georgina. âArtificial Intelligence Flies XQ-58A Valkyrie Drone.â Defense News, August 3, 2023.<a href="#fnref41" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn42"><p>Hadley, Greg. âIn F-16 Dogfight, AI and Human Pilots Are âRoughly an Even Fight,â Says Kendall.â Air &amp; Space Forces Magazine, May 8, 2024.<a href="#fnref42" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn43"><p>Martin, Bradley, Danielle C. Tarraf, Thomas C. Whitmore, Jacob DeWeese, Cedric Kenney, Jon Schmid, and Paul DeLuca. âAdvancing Autonomous Systems: An Analysis of Current and Future Technology for Unmanned Maritime Vehicles.â www.rand.org, 2019.<a href="#fnref43" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn44"><p>GOV.UK. âAUKUS Takes Another Step Forward with Real-Time AI Trials,â August 8, 2024.<a href="#fnref44" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn45"><p>General Dynamics UK. âMulti-Utility Tactical Transport (MUTT),â n.d.<a href="#fnref45" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn46"><p>Abraham, Yuval. ââLavenderâ: The AI Machine Directing Israelâs Bombing Spree in Gaza.â +972 Magazine, April 3, 2024.<a href="#fnref46" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn47"><p>Abraham, Yuval. ââLavenderâ: The AI Machine Directing Israelâs Bombing Spree in Gaza.â +972 Magazine, April 3, 2024.<a href="#fnref47" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn48"><p>Washington Post. âThe next U.S. Battle Tank Could Use AI to Identify Targets.â October 12, 2022.<a href="#fnref48" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn49"><p>King, Anthony. âDigital Targeting: Artificial Intelligence, Data, and Military Intelligence.â Journal of Global Security Studies 9, no. 2 (March 12, 2024).<a href="#fnref49" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn50"><p>Kallenborn, Zachary. âWas a Flying Killer Robot Used in Libya? Quite Possibly.â Bulletin of the Atomic Scientists, May 20, 2021.<a href="#fnref50" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn51"><p>Pandit, Rajat. âArmy Steps up Deployment of AI-Powered Surveillance Systems on Borders with China &amp; Pakistan.â The Times of India, August 7, 2022.<a href="#fnref51" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn52"><p>Sharma, Ritu. âChina Unveils Worldâs 1st Virtual Military Commander; Participates in Computer Wargames to Prepare for Future.â EURASIAN TIMES, June 18, 2024.<a href="#fnref52" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn53"><p>hurriyetdailynews.com. âTÃ¼rkiyeâs AI Forest Fire System Wins UN Award.â HÃ¼rriyet Daily News, May 12, 2024.<a href="#fnref53" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn54"><p>Ben David, Ricky. âIsraelâs Aidoc Raises $110m for AI Tech That Reads Imaging Scans.â Timesofisrael.com, 2018.<a href="#fnref54" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn55"><p>Tyler, Samantha, Matthew Olis, Nicole Aust, Love Patel, Leah Simon, Catherine Triantafyllidis, Vijay Patel, et al.&nbsp;âUse of Artificial Intelligence in Triage in Hospital Emergency Departments: A Scoping Review.â Cureus 16, no. 5 (May 8, 2024).<a href="#fnref55" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn56"><p>Stallings, Jonathan D, Swamy Laxminarayan, Chenggang Yu, Adam Kapela, Andrew Frock, P Andrew, Andrew Reisner, and Jaques Reifman. âAPPRAISE-HRI: An Artificial Intelligence Algorithm for Triage of Hemorrhage Casualties.â Shock Publish Ahead of Print (June 20, 2023).<a href="#fnref56" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn57"><p>Bhinder, Bhavneet, Coryandar Gilvary, Neel S. Madhukar, and Olivier Elemento. âArtificial Intelligence in Cancer Research and Precision Medicine.â Cancer Discovery 11, no. 4 (April 2021): 900â915.<a href="#fnref57" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn58"><p>Office, U. S. Government Accountability. âThe F-35: ALIS in the Looking-Glass.â www.gao.gov, n.d.<a href="#fnref58" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn59"><p>Kelly, Tim. âJapanâs Military to Spend on AI, Automation, Perks to Combat Recruitment Crisis.â Reuters, August 30, 2024.<a href="#fnref59" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn60"><p>Pozzi, James. âBritish Airways Taps into Predictive Maintenance for Fleet Health | Aviation Week Network.â aviationweek.com, February 16, 2024.<a href="#fnref60" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn61"><p>Media, OpenSystems. âBritish Semi-Autonomous Logistic Convoys Tested in U.S. - Military Embedded Systems.â Militaryembedded.com, 2019.<a href="#fnref61" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn62"><p>Christianson, John, Sean Monaghan, and Di Cooke. âAUKUS Pillar Two: Advancing the Capabilities of the United States, United Kingdom, and Australia.â Www.csis.org, July 10, 2023.<a href="#fnref62" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn63"><p>aws.amazon.com. âArtificial Intelligence | Amazon Supply Chain and Logistics,â n.d.<a href="#fnref63" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn64"><p>The Economic Times. âTesla Autopilot: What Is It and How Does It Work? Hereâs Everything You May Want to Know.â The Economic Times, July 8, 2023.<a href="#fnref64" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn65"><p>Hughes, Alyssa. âAI-Powered Microgrids Can Facilitate Energy Resilience and Equity.â Microsoft Research, November 2024.<a href="#fnref65" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn66"><p>Boston Dynamics. âSpot.â Boston Dynamics, 2023.<a href="#fnref66" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+<li id="fn67"><p>Scarr, Simon. âHow Israelâs Bulky Pager Fooled Hezbollah.â Reuters, October 16, 2024.<a href="#fnref67" class="footnote-back" role="doc-backlink">â©ï¸</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/takshashila\.org\.in");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<!-- Footer Component with Social Media Banner -->
+
+<div class="social-banner">
+    <div class="social-banner-container">
+        <div class="social-text">Follow us to get the latest policy updates</div>
+        <div class="social-icons">
+            <a href="https://x.com/TakshashilaInst" class="social-icon" aria-label="Twitter Profile" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/school/the-takshashila-institution/mycompany" class="social-icon" aria-label="LinkedIn Company" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/takshashilainst/" class="social-icon" aria-label="Instagram Page" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/c/TakshashilaInst" class="social-icon" aria-label="Youtube Channel" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512">
+                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Component -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Left Side: Organization Info -->
+        <div class="footer-org-info">
+            <img src="../../assets/images/main-logo-dark.svg" alt="Takshashila Institution" class="footer-logo">
+            <div class="org-description">
+                Connecting good people to good ideas and good networks.
+            </div>
+            <div class="org-address">
+                The Takshashila Institution<br>
+                2nd floor, 46/1, Cobalt Building, Church Street<br>
+                Bengaluru, Karnataka, India - 560001
+            </div>
+        </div>
+
+        <!-- Right Side: Navigation Links Grid -->
+        <div class="footer-nav-grid">
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Think Tank</h3>
+                <ul class="footer-links">
+                    <li><a href="../../pages/research-areas/">Research</a></li>
+                    <li><a href="../../pages/publications/">Analysis</a></li>
+                    <li><a href="../../content/podcasts/all-things-policy/index.html">All things policy</a></li>
+                    <li><a href="../../pages/newsletters/">Newsletter</a></li>
+                    <li><a href="../../pages/ai-policy.html">Principles for the use of AI</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Education</h3>
+                <ul class="footer-links">
+                    <li><a href="../../pages/policy-school/">Policy School</a></li>
+                    <li><a href="https://opentakshashila.net/" target="_blank">Open Takshashila</a></li>
+                    <li><a href="https://www.politicalmandala.in/" target="_blank" rel="noopener noreferrer">Political Mandala</a></li>
+                    <li><a href="../../pages/takshashila-library.html">Takshashila Library</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="../../pages/ombudsman.html">Ombudsman</a></li>
+                    <li><a href="../../pages/terms.html">Terms &amp; Conditions</a></li>
+                    <li><a href="../../pages/privacy.html">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-column">
+                <h3 class="footer-heading">About</h3>
+                <ul class="footer-links">
+                    <li><a href="../../pages/mission.html">Mission</a></li>
+                    <li><a href="../../pages/milestones.html">Milestones</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="copyright">
+            Copyright Â© 2010-2026. The Takshashila Institution. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,35 @@
+AI's Impact on Policy Discourse: Quality Degradation and Competition
+insights
+AI has flooded policy discourse with low-quality content while reducing the value of good analysis, forcing think tanks to rethink how they stand out.
+Published
+April 14, 2026
+TL;DR
+: AI has flooded policy discourse with low-quality content while reducing the value of good analysis, forcing think tanks to rethink how they stand out.
+Key Points
+AI allows previously poor writers to create persuasive but low-quality content that exploits cognitive biases
+Good analysts can now flood the market with decent analysis, driving the marginal value of quality work toward zero
+The signal-to-noise ratio in policy discourse has reached an all-time low due to AI-generated content
+Think tanks must solve three simultaneous challenges: produce better analysis, stand out from competitors, and capture target audience attention
+The threshold for entering subject matter discussions has been eliminated by AI tools
+Context
+This discussion was prompted by observations about AI's transformative impact on the policy and analysis landscape. The conversation emerged from an operations meeting discussion about how Takshashila Institution should adapt to these changes in the information environment, where AI tools are fundamentally altering both the quality and quantity of policy discourse.
+Original Thread
+[2026-02-25 03:48 UTC] @nitinpai: Reposting this here because it's existentially important:
+
+>This is what I was referring to when I spoke about AI at ops. 
+>1. Discourse is completely shittified and cuckoos who couldn't spell earlier can now write long essays, dishing out shit. They play to desirability bias and social proof to win attention. 
+>
+>2. Non-cuckoos can generate decent quality non-shitty analysis and flood the space. Even if they don't become influential they reduce the marginal price of such analysis to zero, because they've flooded the market. 
+>
+>3. So what do you do (a) to put out better analysis (b) stand out (c) gain the attention of the target audience. All three must be true simultaneously. 
+>
+>#3 is not a rhetorical question. It's something we have to think about and answer for ourselves.
+
+[2026-04-14 05:46 UTC] @pranaykotas: !kb
+
+[2026-04-14 05:46 UTC] @kb-bot: Processing this thread...
+
+[2026-02-25 03:52 UTC] @lokendra_sharma: Thanks for articulating this, Nitin; we discussed a version of this problem in the last HTG meeting. AI infusion means information environment is more homogeneous and more polarised at the same time. How to stand out amid this is a question we did not have a clear answer to. 
+
+[2026-02-25 05:43 UTC] @kpm: The threshold of entry into subject matter discourses have bottomed out. AI tools and verbal gadgetry have helped generate smartly-packaged bullshit at such scale that "true" expertise is swamped out. Signal to Noise ratio is at an all time low amid frameworks and windows.
+From #Nitin's Arrows · 5 participants · What We Learned

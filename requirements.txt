@@ -40,3 +40,7 @@ httpx
 python-multipart
 # python-dotenv is already listed above (used by both Streamlit and the bot).
 pytesseract
+
+pymupdf
+PyPDF2
+chardet
